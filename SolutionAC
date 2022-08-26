@@ -1,0 +1,2723 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ABB | Label C/A</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="">
+    <meta name="Description" content="">
+    <link
+        href="https://campaign.abb.com/l/501021/2020-05-04/r8fjgn/501021/217523/Fixed_Master_CSS_Global_Webinar_Template.css"
+        rel="stylesheet">
+        <link rel="icon" href="https://abb-ace.nl/app/uploads/2022/02/cropped-Frame-4-32x32.png" sizes="32x32">
+    <style>
+        .container,
+        .container-fluid {
+            margin-right: auto;
+            margin-left: auto;
+            width: 100%;
+            padding-right: 15px;
+            padding-left: 15px
+        }
+
+        @-ms-viewport {
+            width: device-width
+        }
+
+        html {
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            -ms-overflow-style: scrollbar
+        }
+
+        *,
+        ::after,
+        ::before {
+            -webkit-box-sizing: inherit;
+            box-sizing: inherit
+        }
+
+        .container {
+            max-width: 1250px
+        }
+
+        .row {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px
+        }
+
+        .col,
+        .col-1,
+        .col-10,
+        .col-11,
+        .col-12,
+        .col-2,
+        .col-3,
+        .col-4,
+        .col-5,
+        .col-6,
+        .col-7,
+        .col-8,
+        .col-9,
+        .col-auto,
+        .col-lg,
+        .col-lg-1,
+        .col-lg-10,
+        .col-lg-11,
+        .col-lg-12,
+        .col-lg-2,
+        .col-lg-3,
+        .col-lg-4,
+        .col-lg-5,
+        .col-lg-6,
+        .col-lg-7,
+        .col-lg-8,
+        .col-lg-9,
+        .col-lg-auto,
+        .col-md,
+        .col-md-1,
+        .col-md-10,
+        .col-md-11,
+        .col-md-12,
+        .col-md-2,
+        .col-md-3,
+        .col-md-4,
+        .col-md-5,
+        .col-md-6,
+        .col-md-7,
+        .col-md-8,
+        .col-md-9,
+        .col-md-auto,
+        .col-sm,
+        .col-sm-1,
+        .col-sm-10,
+        .col-sm-11,
+        .col-sm-12,
+        .col-sm-2,
+        .col-sm-3,
+        .col-sm-4,
+        .col-sm-5,
+        .col-sm-6,
+        .col-sm-7,
+        .col-sm-8,
+        .col-sm-9,
+        .col-sm-auto,
+        .col-xl,
+        .col-xl-1,
+        .col-xl-10,
+        .col-xl-11,
+        .col-xl-12,
+        .col-xl-2,
+        .col-xl-3,
+        .col-xl-4,
+        .col-xl-5,
+        .col-xl-6,
+        .col-xl-7,
+        .col-xl-8,
+        .col-xl-9,
+        .col-xl-auto {
+            position: relative;
+            width: 100%;
+            min-height: 1px;
+            padding-right: 15px;
+            padding-left: 15px
+        }
+
+        .col-1 {
+            -webkit-box-flex: 0;
+            -ms-flex: 0 0 8.3333333333%;
+            flex: 0 0 8.3333333333%;
+            max-width: 8.3333333333%
+        }
+
+        .col-2,
+        .col-3 {
+            -webkit-box-flex: 0
+        }
+
+        .col-2 {
+            -ms-flex: 0 0 16.6666666667%;
+            flex: 0 0 16.6666666667%;
+            max-width: 16.6666666667%
+        }
+
+        .col-3 {
+            -ms-flex: 0 0 25%;
+            flex: 0 0 25%;
+            max-width: 25%
+        }
+
+        .col-4,
+        .col-5 {
+            -webkit-box-flex: 0
+        }
+
+        .col-4 {
+            -ms-flex: 0 0 33.3333333333%;
+            flex: 0 0 33.3333333333%;
+            max-width: 33.3333333333%
+        }
+
+        .col-5 {
+            -ms-flex: 0 0 41.6666666667%;
+            flex: 0 0 41.6666666667%;
+            max-width: 41.6666666667%
+        }
+
+        .col-6,
+        .col-7 {
+            -webkit-box-flex: 0
+        }
+
+        .col-6 {
+            -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+            max-width: 50%
+        }
+
+        .col-7 {
+            -ms-flex: 0 0 58.3333333333%;
+            flex: 0 0 58.3333333333%;
+            max-width: 58.3333333333%
+        }
+
+        .col-8,
+        .col-9 {
+            -webkit-box-flex: 0
+        }
+
+        .col-8 {
+            -ms-flex: 0 0 66.6666666667%;
+            flex: 0 0 66.6666666667%;
+            max-width: 66.6666666667%
+        }
+
+        .col-9 {
+            -ms-flex: 0 0 75%;
+            flex: 0 0 75%;
+            max-width: 75%
+        }
+
+        .col-10,
+        .col-11 {
+            -webkit-box-flex: 0
+        }
+
+        .col-10 {
+            -ms-flex: 0 0 83.3333333333%;
+            flex: 0 0 83.3333333333%;
+            max-width: 83.3333333333%
+        }
+
+        .col-11 {
+            -ms-flex: 0 0 91.6666666667%;
+            flex: 0 0 91.6666666667%;
+            max-width: 91.6666666667%
+        }
+
+        .col-12 {
+            -webkit-box-flex: 0;
+            -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+            max-width: 100%
+        }
+
+        @media (min-width:576px) {
+            .col-sm-1 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 8.3333333333%;
+                flex: 0 0 8.3333333333%;
+                max-width: 8.3333333333%
+            }
+
+            .col-sm-2 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 16.6666666667%;
+                flex: 0 0 16.6666666667%;
+                max-width: 16.6666666667%
+            }
+
+            .col-sm-3 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 25%;
+                flex: 0 0 25%;
+                max-width: 25%
+            }
+
+            .col-sm-4 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 33.3333333333%;
+                flex: 0 0 33.3333333333%;
+                max-width: 33.3333333333%
+            }
+
+            .col-sm-5 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 41.6666666667%;
+                flex: 0 0 41.6666666667%;
+                max-width: 41.6666666667%
+            }
+
+            .col-sm-6 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 50%;
+                flex: 0 0 50%;
+                max-width: 50%
+            }
+
+            .col-sm-7 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 58.3333333333%;
+                flex: 0 0 58.3333333333%;
+                max-width: 58.3333333333%
+            }
+
+            .col-sm-8 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 66.6666666667%;
+                flex: 0 0 66.6666666667%;
+                max-width: 66.6666666667%
+            }
+
+            .col-sm-9 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 75%;
+                flex: 0 0 75%;
+                max-width: 75%
+            }
+
+            .col-sm-10 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 83.3333333333%;
+                flex: 0 0 83.3333333333%;
+                max-width: 83.3333333333%
+            }
+
+            .col-sm-11 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 91.6666666667%;
+                flex: 0 0 91.6666666667%;
+                max-width: 91.6666666667%
+            }
+
+            .col-sm-12 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 100%;
+                flex: 0 0 100%;
+                max-width: 100%
+            }
+        }
+
+        @media (min-width:768px) {
+            .col-md-1 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 8.3333333333%;
+                flex: 0 0 8.3333333333%;
+                max-width: 8.3333333333%
+            }
+
+            .col-md-2 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 16.6666666667%;
+                flex: 0 0 16.6666666667%;
+                max-width: 16.6666666667%
+            }
+
+            .col-md-3 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 25%;
+                flex: 0 0 25%;
+                max-width: 25%
+            }
+
+            .col-md-4 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 33.3333333333%;
+                flex: 0 0 33.3333333333%;
+                max-width: 33.3333333333%
+            }
+
+            .col-md-5 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 41.6666666667%;
+                flex: 0 0 41.6666666667%;
+                max-width: 41.6666666667%
+            }
+
+            .col-md-6 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 50%;
+                flex: 0 0 50%;
+                max-width: 50%
+            }
+
+            .col-md-7 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 58.3333333333%;
+                flex: 0 0 58.3333333333%;
+                max-width: 58.3333333333%
+            }
+
+            .col-md-8 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 66.6666666667%;
+                flex: 0 0 66.6666666667%;
+                max-width: 66.6666666667%
+            }
+
+            .col-md-9 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 75%;
+                flex: 0 0 75%;
+                max-width: 75%
+            }
+
+            .col-md-10 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 83.3333333333%;
+                flex: 0 0 83.3333333333%;
+                max-width: 83.3333333333%
+            }
+
+            .col-md-11 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 91.6666666667%;
+                flex: 0 0 91.6666666667%;
+                max-width: 91.6666666667%
+            }
+
+            .col-md-12 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 100%;
+                flex: 0 0 100%;
+                max-width: 100%
+            }
+        }
+
+        @media (min-width:992px) {
+            .col-lg-1 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 8.3333333333%;
+                flex: 0 0 8.3333333333%;
+                max-width: 8.3333333333%
+            }
+
+            .col-lg-2 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 16.6666666667%;
+                flex: 0 0 16.6666666667%;
+                max-width: 16.6666666667%
+            }
+
+            .col-lg-3 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 25%;
+                flex: 0 0 25%;
+                max-width: 25%
+            }
+
+            .col-lg-4 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 33.3333333333%;
+                flex: 0 0 33.3333333333%;
+                max-width: 33.3333333333%
+            }
+
+            .col-lg-5 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 41.6666666667%;
+                flex: 0 0 41.6666666667%;
+                max-width: 41.6666666667%
+            }
+
+            .col-lg-6 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 50%;
+                flex: 0 0 50%;
+                max-width: 50%
+            }
+
+            .col-lg-7 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 58.3333333333%;
+                flex: 0 0 58.3333333333%;
+                max-width: 58.3333333333%
+            }
+
+            .col-lg-8 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 66.6666666667%;
+                flex: 0 0 66.6666666667%;
+                max-width: 66.6666666667%
+            }
+
+            .col-lg-9 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 75%;
+                flex: 0 0 75%;
+                max-width: 75%
+            }
+
+            .col-lg-10 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 83.3333333333%;
+                flex: 0 0 83.3333333333%;
+                max-width: 83.3333333333%
+            }
+
+            .col-lg-11 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 91.6666666667%;
+                flex: 0 0 91.6666666667%;
+                max-width: 91.6666666667%
+            }
+
+            .col-lg-12 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 100%;
+                flex: 0 0 100%;
+                max-width: 100%
+            }
+        }
+
+        @media (min-width:1200px) {
+            .col-xl-1 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 8.3333333333%;
+                flex: 0 0 8.3333333333%;
+                max-width: 8.3333333333%
+            }
+
+            .col-xl-2 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 16.6666666667%;
+                flex: 0 0 16.6666666667%;
+                max-width: 16.6666666667%
+            }
+
+            .col-xl-3 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 25%;
+                flex: 0 0 25%;
+                max-width: 25%
+            }
+
+            .col-xl-4 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 33.3333333333%;
+                flex: 0 0 33.3333333333%;
+                max-width: 33.3333333333%
+            }
+
+            .col-xl-5 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 41.6666666667%;
+                flex: 0 0 41.6666666667%;
+                max-width: 41.6666666667%
+            }
+
+            .col-xl-6 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 50%;
+                flex: 0 0 50%;
+                max-width: 50%
+            }
+
+            .col-xl-7 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 58.3333333333%;
+                flex: 0 0 58.3333333333%;
+                max-width: 58.3333333333%
+            }
+
+            .col-xl-8 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 66.6666666667%;
+                flex: 0 0 66.6666666667%;
+                max-width: 66.6666666667%
+            }
+
+            .col-xl-9 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 75%;
+                flex: 0 0 75%;
+                max-width: 75%
+            }
+
+            .col-xl-10 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 83.3333333333%;
+                flex: 0 0 83.3333333333%;
+                max-width: 83.3333333333%
+            }
+
+            .col-xl-11 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 91.6666666667%;
+                flex: 0 0 91.6666666667%;
+                max-width: 91.6666666667%
+            }
+
+            .col-xl-12 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 100%;
+                flex: 0 0 100%;
+                max-width: 100%
+            }
+        }
+
+        .d-none {
+            display: none !important
+        }
+
+        .d-inline {
+            display: inline !important
+        }
+
+        .d-inline-block {
+            display: inline-block !important
+        }
+
+        .d-block {
+            display: block !important
+        }
+
+        @media (min-width:576px) {
+            .d-sm-none {
+                display: none !important
+            }
+
+            .d-sm-block {
+                display: block !important
+            }
+        }
+
+        @media (min-width:768px) {
+            .order-md-2 {
+                -webkit-box-ordinal-group: 3;
+                -ms-flex-order: 2;
+                order: 2;
+            }
+
+            .order-md-1 {
+                -webkit-box-ordinal-group: 2;
+                -ms-flex-order: 1;
+                order: 1;
+            }
+
+            .d-md-none {
+                display: none !important
+            }
+
+            .d-md-block {
+                display: block !important
+            }
+        }
+
+        @media (min-width:992px) {
+            .footer .col-lg-4 {
+                -ms-flex: 0 0 30%;
+                flex: 0 0 30%;
+                max-width: 30%;
+            }
+
+            .footer .col-lg-2 {
+                -ms-flex: 0 0 20%;
+                flex: 0 0 20%;
+                max-width: 20%;
+            }
+
+            .d-lg-none {
+                display: none !important
+            }
+
+            .d-lg-block {
+                display: block !important
+            }
+        }
+
+        .text-center {
+            text-align: center
+        }
+
+        .slick-list,
+        .slick-slider,
+        .slick-track {
+            position: relative;
+            display: block
+        }
+
+        .slick-loading .slick-slide,
+        .slick-loading .slick-track {
+            visibility: hidden
+        }
+
+        .slick-slider {
+            box-sizing: border-box;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            -webkit-touch-callout: none;
+            -khtml-user-select: none;
+            -ms-touch-action: pan-y;
+            touch-action: pan-y;
+            -webkit-tap-highlight-color: transparent
+        }
+
+        .slick-list {
+            overflow: hidden;
+            margin: 0;
+            padding: 0
+        }
+
+        .slick-list:focus {
+            outline: 0
+        }
+
+        .slick-list.dragging {
+            cursor: pointer;
+            cursor: hand
+        }
+
+        .slick-slider .slick-list,
+        .slick-slider .slick-track {
+            -webkit-transform: translate3d(0, 0, 0);
+            -moz-transform: translate3d(0, 0, 0);
+            -ms-transform: translate3d(0, 0, 0);
+            -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0)
+        }
+
+        .slick-track {
+            top: 0;
+            left: 0;
+            margin-left: auto;
+            margin-right: auto
+        }
+
+        .slick-track:after,
+        .slick-track:before {
+            display: table;
+            content: ''
+        }
+
+        .slick-track:after {
+            clear: both
+        }
+
+        .slick-slide {
+            display: none;
+            float: left;
+            height: 100%;
+            min-height: 1px
+        }
+
+        [dir=rtl] .slick-slide {
+            float: right
+        }
+
+        .slick-slide img {
+            display: block
+        }
+
+        .slick-slide.slick-loading img {
+            display: none
+        }
+
+        .slick-slide.dragging img {
+            pointer-events: none
+        }
+
+        .slick-initialized .slick-slide {
+            display: block
+        }
+
+        .slick-vertical .slick-slide {
+            display: block;
+            height: auto;
+            border: 1px solid transparent
+        }
+
+        .slick-arrow.slick-hidden {
+            display: none
+        }
+
+        .mfp-bg {
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1042;
+            overflow: hidden;
+            position: fixed;
+            background: #0b0b0b;
+            opacity: .8
+        }
+
+        .mfp-wrap {
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1043;
+            position: fixed;
+            outline: none !important;
+            -webkit-backface-visibility: hidden
+        }
+
+        .mfp-container {
+            text-align: center;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            padding: 0 8px;
+            box-sizing: border-box
+        }
+
+        .mfp-container:before {
+            content: '';
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle
+        }
+
+        .mfp-align-top .mfp-container:before {
+            display: none
+        }
+
+        .mfp-content {
+            position: relative;
+            display: inline-block;
+            vertical-align: middle;
+            margin: 0 auto;
+            text-align: left;
+            z-index: 1045
+        }
+
+        .mfp-inline-holder .mfp-content,
+        .mfp-ajax-holder .mfp-content {
+            width: 100%;
+            cursor: auto
+        }
+
+        .mfp-ajax-cur {
+            cursor: progress
+        }
+
+        .mfp-zoom-out-cur,
+        .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
+            cursor: -moz-zoom-out;
+            cursor: -webkit-zoom-out;
+            cursor: zoom-out
+        }
+
+        .mfp-zoom {
+            cursor: pointer;
+            cursor: -webkit-zoom-in;
+            cursor: -moz-zoom-in;
+            cursor: zoom-in
+        }
+
+        .mfp-auto-cursor .mfp-content {
+            cursor: auto
+        }
+
+        .mfp-close,
+        .mfp-arrow,
+        .mfp-preloader,
+        .mfp-counter {
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none
+        }
+
+        .mfp-loading.mfp-figure {
+            display: none
+        }
+
+        .mfp-hide {
+            display: none !important
+        }
+
+        .mfp-preloader {
+            color: #CCC;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            text-align: center;
+            margin-top: -0.8em;
+            left: 8px;
+            right: 8px;
+            z-index: 1044
+        }
+
+        .mfp-preloader a {
+            color: #CCC
+        }
+
+        .mfp-preloader a:hover {
+            color: #FFF
+        }
+
+        .mfp-s-ready .mfp-preloader {
+            display: none
+        }
+
+        .mfp-s-error .mfp-content {
+            display: none
+        }
+
+        button.mfp-close,
+        button.mfp-arrow {
+            overflow: visible;
+            cursor: pointer;
+            background: transparent;
+            border: 0;
+            -webkit-appearance: none;
+            display: block;
+            outline: 0;
+            padding: 0;
+            z-index: 1046;
+            box-shadow: none;
+            touch-action: manipulation
+        }
+
+        button::-moz-focus-inner {
+            padding: 0;
+            border: 0
+        }
+
+        .mfp-close {
+            width: 44px;
+            height: 44px;
+            line-height: 44px;
+            position: absolute;
+            right: 0;
+            top: 0;
+            text-decoration: none;
+            text-align: center;
+            opacity: .65;
+            padding: 0 0 18px 10px;
+            color: #FFF;
+            font-style: normal;
+            font-size: 28px;
+            font-family: Arial, Baskerville, monospace
+        }
+
+        .mfp-close:hover,
+        .mfp-close:focus {
+            opacity: 1
+        }
+
+        .mfp-close:active {
+            top: 1px
+        }
+
+        .mfp-close-btn-in .mfp-close {
+            color: #333
+        }
+
+        .mfp-image-holder .mfp-close,
+        .mfp-iframe-holder .mfp-close {
+            color: #FFF;
+            right: -6px;
+            text-align: right;
+            padding-right: 6px;
+            width: 100%
+        }
+
+        .mfp-counter {
+            position: absolute;
+            top: 0;
+            right: 0;
+            color: #CCC;
+            font-size: 12px;
+            line-height: 18px;
+            white-space: nowrap
+        }
+
+        .mfp-arrow {
+            position: absolute;
+            opacity: .65;
+            margin: 0;
+            top: 50%;
+            margin-top: -55px;
+            padding: 0;
+            width: 90px;
+            height: 110px;
+            -webkit-tap-highlight-color: transparent
+        }
+
+        .mfp-arrow:active {
+            margin-top: -54px
+        }
+
+        .mfp-arrow:hover,
+        .mfp-arrow:focus {
+            opacity: 1
+        }
+
+        .mfp-arrow:before,
+        .mfp-arrow:after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 0;
+            position: absolute;
+            left: 0;
+            top: 0;
+            margin-top: 35px;
+            margin-left: 35px;
+            border: medium inset transparent
+        }
+
+        .mfp-arrow:after {
+            border-top-width: 13px;
+            border-bottom-width: 13px;
+            top: 8px
+        }
+
+        .mfp-arrow:before {
+            border-top-width: 21px;
+            border-bottom-width: 21px;
+            opacity: .7
+        }
+
+        .mfp-arrow-left {
+            left: 0
+        }
+
+        .mfp-arrow-left:after {
+            border-right: 17px solid #FFF;
+            margin-left: 31px
+        }
+
+        .mfp-arrow-left:before {
+            margin-left: 25px;
+            border-right: 27px solid #3f3f3f
+        }
+
+        .mfp-arrow-right {
+            right: 0
+        }
+
+        .mfp-arrow-right:after {
+            border-left: 17px solid #FFF;
+            margin-left: 39px
+        }
+
+        .mfp-arrow-right:before {
+            border-left: 27px solid #3f3f3f
+        }
+
+        .mfp-iframe-holder {
+            padding-top: 40px;
+            padding-bottom: 40px
+        }
+
+        .mfp-iframe-holder .mfp-content {
+            line-height: 0;
+            width: 100%;
+            max-width: 900px
+        }
+
+        .mfp-iframe-holder .mfp-close {
+            top: -40px
+        }
+
+        .mfp-iframe-scaler {
+            width: 100%;
+            height: 0;
+            overflow: hidden;
+            padding-top: 56.25%
+        }
+
+        .mfp-iframe-scaler iframe {
+            position: absolute;
+            display: block;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+            background: #000
+        }
+
+        img.mfp-img {
+            width: auto;
+            max-width: 100%;
+            height: auto;
+            display: block;
+            line-height: 0;
+            box-sizing: border-box;
+            padding: 40px 0 40px;
+            margin: 0 auto
+        }
+
+        .mfp-figure {
+            line-height: 0
+        }
+
+        .mfp-figure:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 40px;
+            bottom: 40px;
+            display: block;
+            right: 0;
+            width: auto;
+            height: auto;
+            z-index: -1;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+            background: #444
+        }
+
+        .mfp-figure small {
+            color: #bdbdbd;
+            display: block;
+            font-size: 12px;
+            line-height: 14px
+        }
+
+        .mfp-figure figure {
+            margin: 0
+        }
+
+        .mfp-bottom-bar {
+            margin-top: -36px;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            cursor: auto
+        }
+
+        .mfp-title {
+            text-align: left;
+            line-height: 18px;
+            color: #f3f3f3;
+            word-wrap: break-word;
+            padding-right: 36px
+        }
+
+        .mfp-image-holder .mfp-content {
+            max-width: 100%
+        }
+
+        .mfp-gallery .mfp-image-holder .mfp-figure {
+            cursor: pointer
+        }
+
+        @media screen and (max-width:800px) and (orientation:landscape),
+        screen and (max-height:300px) {
+            .mfp-img-mobile .mfp-image-holder {
+                padding-left: 0;
+                padding-right: 0
+            }
+
+            .mfp-img-mobile img.mfp-img {
+                padding: 0
+            }
+
+            .mfp-img-mobile .mfp-figure:after {
+                top: 0;
+                bottom: 0
+            }
+
+            .mfp-img-mobile .mfp-figure small {
+                display: inline;
+                margin-left: 5px
+            }
+
+            .mfp-img-mobile .mfp-bottom-bar {
+                background: rgba(0, 0, 0, 0.6);
+                bottom: 0;
+                margin: 0;
+                top: auto;
+                padding: 3px 5px;
+                position: fixed;
+                box-sizing: border-box
+            }
+
+            .mfp-img-mobile .mfp-bottom-bar:empty {
+                padding: 0
+            }
+
+            .mfp-img-mobile .mfp-counter {
+                right: 5px;
+                top: 3px
+            }
+
+            .mfp-img-mobile .mfp-close {
+                top: 0;
+                right: 0;
+                width: 35px;
+                height: 35px;
+                line-height: 35px;
+                background: rgba(0, 0, 0, 0.6);
+                position: fixed;
+                text-align: center;
+                padding: 0
+            }
+        }
+
+        @media all and (max-width:900px) {
+            .mfp-arrow {
+                -webkit-transform: scale(0.75);
+                transform: scale(0.75)
+            }
+
+            .mfp-arrow-left {
+                -webkit-transform-origin: 0 0;
+                transform-origin: 0 0
+            }
+
+            .mfp-arrow-right {
+                -webkit-transform-origin: 100%;
+                transform-origin: 100%
+            }
+
+            .mfp-container {
+                padding-left: 6px;
+                padding-right: 6px
+            }
+        }
+    </style>
+    <style>
+        /* ==========================================================================
+         Global
+         ========================================================================== */
+        html,
+        body {
+            font-size: 14px;
+            overflow-x: hidden;
+            font-family: "abbvoice", sans-serif;
+            font-weight: 400;
+            -webkit-font-smoothing: antialiased;
+            margin: 0 auto;
+            max-width: 1280px;
+            width: 100%;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "abbvoice", sans-serif;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+
+        a,
+        p,
+        button,
+        li,
+        time {
+            font-weight: normal;
+            font-family: 'abbvoice', sans-serif;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            vertical-align: top;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: #4dbbb6;
+        }
+
+        a:hover,
+        a:focus {
+            text-decoration: none;
+            outline: none;
+            color: #4dbbb6;
+        }
+
+        p {
+            font-size: 16px;
+            color: #666;
+            line-height: 140%;
+            font-family: 'abbvoice', sans-serif;
+        }
+
+        section {
+            position: relative;
+            padding: 50px 0;
+            min-width: 100%;
+            width: 100%;
+        }
+
+        .btn:focus,
+        input,
+        textarea,
+        button,
+        button:focus,
+        button.close:focus,
+        input:focus,
+        textarea:focus {
+            outline: none;
+            text-decoration: none;
+            box-shadow: none;
+        }
+
+        strong {
+            font-weight: 700;
+        }
+
+        .form-control,
+        input,
+        textarea,
+        select,
+        .form-control:focus,
+        input:focus,
+        textarea:focus,
+        select:focus {
+            border-color: inherit;
+            box-shadow: none;
+            outline: none;
+        }
+
+        .nm {
+            margin: 0 !important;
+        }
+
+        .np {
+            padding: 0 !important;
+        }
+
+        .nlp {
+            padding-left: 0 !important;
+        }
+
+        .nrp {
+            padding-right: 0 !important;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea,
+        input[type="tel"],
+        input[type="password"],
+        select {
+            width: 100% !important;
+            background: #fafafa !important;
+            color: #262626 !important;
+            border: none !important;
+            outline: none !important;
+            margin-bottom: 8px !important;
+            padding: 14px 20px !important;
+            font-size: 18px !important;
+            line-height: 150% !important;
+            border-radius: 0px !important;
+            border: solid 1px #a9a9a9 !important;
+            font-family: 'abbvoice', sans-serif !important;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        textarea:focus,
+        input[type="tel"]:focus,
+        input[type="password"]:focus,
+        select:focus {
+            border: solid 1px #da000f !important;
+        }
+
+        input[type="submit"],
+        .btn-readmore,
+        .btn {
+            background-color: #ff000f;
+            border: 1px solid #ff000f;
+            color: #fff;
+            height: 42px;
+            line-height: 40px !important;
+            padding: 0;
+            padding-left: 25px;
+            padding-right: 25px;
+            border-radius: 15px;
+            font-size: 16px;
+            display: inline-block;
+            border-radius: 30px;
+            font-weight: 600;
+            max-width: 100%;
+            -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        input[type="submit"]:hover {
+            background-color: #da000f;
+            border: 1px solid #da000f;
+            color: #fff;
+        }
+
+        input::-webkit-input-placeholder {
+            /* Chrome/Opera/Safari */
+            color: #262626;
+            font-size: 16px;
+        }
+
+        textarea::-webkit-input-placeholder {
+            /* Chrome/Opera/Safari */
+            color: #262626;
+            font-size: 16px;
+        }
+
+        input::-moz-placeholder {
+            /* Firefox 19+ */
+            color: #262626;
+            font-size: 16px;
+        }
+
+        textarea::-moz-placeholder {
+            /* Firefox 19+ */
+            color: #262626;
+            font-size: 16px;
+        }
+
+        input:-ms-input-placeholder {
+            /* IE 10+ */
+            color: #262626;
+            font-size: 16px;
+        }
+
+        textarea:-ms-input-placeholder {
+            /* IE 10+ */
+            color: #262626;
+            font-size: 16px;
+        }
+
+        input:-moz-placeholder {
+            /* Firefox 18- */
+            color: #262626;
+            font-size: 16px;
+        }
+
+        textarea:-moz-placeholder {
+            /* Firefox 18- */
+            color: #262626;
+            font-size: 16px;
+        }
+
+        textarea {
+            max-height: 160px;
+            height: 160px;
+            min-height: 160px;
+        }
+
+        label {
+            color: #fff !important;
+            padding-bottom: 7px;
+            display: block;
+        }
+
+        .bg-image {
+            background-repeat: no-repeat !important;
+            background-position: center center !important;
+            background-size: cover !important;
+        }
+
+        .transition,
+        a,
+        input,
+        textarea,
+        .btn,
+        button,
+        .owl-prev,
+        .owl-next,
+        .social li a i,
+        .navbar-toggle,
+        .icon-bar,
+        input[type="radio"]+label,
+        .flat img,
+        .sub-menu,
+        .nav li:hover .sub-menu,
+        .slick-center,
+        .additional-services ul li a:hover img,
+        .additional-services ul li a img {
+            -webkit-transition: all 500ms ease;
+            -moz-transition: all 500ms ease;
+            -ms-transition: all 500ms ease;
+            -o-transition: all 500ms ease;
+            transition: all 500ms ease;
+        }
+
+        .embed-responsive:before {
+            padding-top: 56.25%
+        }
+
+        .embed-responsive:before {
+            padding-top: 56.25%
+        }
+
+        .embed-responsive {
+            position: relative;
+            display: block;
+            width: 100%;
+            padding: 0;
+            overflow: hidden;
+            padding-top: 56.25%;
+        }
+
+        .embed-responsive:before {}
+
+        .embed-responsive iframe,
+        .embed-responsive video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        @media (max-width: 767px) {
+            .m-center {
+                text-align: center;
+            }
+        }
+
+        .justify-content-end {
+            -webkit-box-pack: end !important;
+            -ms-flex-pack: end !important;
+            justify-content: flex-end !important;
+        }
+
+        .d-flex {
+            display: flex;
+        }
+
+        @media only screen and (max-width:576px) {}
+
+        form.form p.no-label,
+        form.form p.email-pref {
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: border-box;
+        }
+
+        input::-webkit-input-placeholder {
+            /* Chrome/Opera/Safari */
+            color: #262626;
+            width: 100%;
+            font-family: 'abbvoice', Arial, Helvetica, sans-serif;
+            font-size: 18px;
+        }
+
+        textarea::-webkit-input-placeholder {
+            /* Chrome/Opera/Safari */
+            color: #262626;
+            width: 100%;
+            font-family: 'abbvoice', Arial, Helvetica, sans-serif;
+            font-size: 18px;
+        }
+
+        input::-moz-placeholder {
+            /* Firefox 19+ */
+            color: #262626;
+            width: 100%;
+            font-family: 'abbvoice', Arial, Helvetica, sans-serif;
+            font-size: 18px;
+        }
+
+        textarea::-moz-placeholder {
+            /* Firefox 19+ */
+            color: #262626;
+            width: 100%;
+            font-family: 'abbvoice', Arial, Helvetica, sans-serif;
+            font-size: 18px;
+        }
+
+        input:-ms-input-placeholder {
+            /* IE 10+ */
+            color: #262626;
+            width: 100%;
+            font-family: 'abbvoice', Arial, Helvetica, sans-serif;
+            font-size: 18px;
+        }
+
+        textarea:-ms-input-placeholder {
+            /* IE 10+ */
+            color: #262626;
+            width: 100%;
+            font-family: 'abbvoice', Arial, Helvetica, sans-serif;
+            font-size: 18px;
+        }
+
+        input:-moz-placeholder {
+            /* Firefox 18- */
+            color: #262626;
+            width: 100%;
+            font-family: 'abbvoice', Arial, Helvetica, sans-serif;
+            font-size: 18px;
+        }
+
+        textarea:-moz-placeholder {
+            /* Firefox 18- */
+            color: #262626;
+            width: 100%;
+            font-family: 'abbvoice', Arial, Helvetica, sans-serif;
+            font-size: 18px;
+        }
+
+        input[type="text"],
+        input[type="password"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="search"],
+        input[type="url"],
+        textarea,
+        select {
+            background-color: transparent;
+            padding: 4px 12px !important;
+            height: 46px;
+            line-height: 1;
+            border: solid 1px #707070;
+            color: #262626;
+            width: 100%;
+            font-family: 'abbvoice', Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            -moz-transition: border-color 200ms ease-in;
+            -webkit-transition: border-color 200ms ease-in;
+            transition: border-color 200ms ease-in;
+            border-radius: 0;
+            -webkit-appearance: none;
+            -webkit-border-radius: 0px;
+        }
+
+        textarea {
+            height: 160px;
+            min-height: 160px;
+            max-height: 160px;
+            padding: 6px 8px !important;
+        }
+
+        form {
+            text-align: left;
+            max-width: 1000px !important;
+            width: 100% !important;
+            margin: 0 auto !important;
+            padding: 0 !important;
+        }
+
+        form input[type="submit"] {
+            background: #002d5b !important;
+            margin-right: 0 !important;
+            margin-left: 0 !important;
+            border: none !important;
+        }
+
+        ul.wpcf7 {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            margin-left: -8px;
+            margin-right: -8px;
+        }
+
+        ul.wpcf7>li {
+            padding-right: 8px;
+            padding-left: 8px;
+            padding-bottom: 12px !important;
+            -webkit-box-flex: 0;
+            -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+            max-width: 50%;
+            list-style: none;
+        }
+
+        form.form p.required label,
+        form.form span.required label {
+            background-image: none !important;
+        }
+
+        ul.wpcf7>li p.form-field {
+            margin: 0 !important;
+        }
+
+        @media only screen and (max-width:767px) {
+            ul.wpcf7>li {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 100%;
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+        }
+
+        ul.wpcf7>li:last-child {
+            -webkit-box-flex: 0;
+            -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+
+        form.form textarea {
+            width: 100% !important;
+        }
+
+        form.form p {
+            padding: 0 !important;
+            margin-top: 0 !important;
+            margin-bottom: 5px !important;
+        }
+
+        span.description {
+            display: block !important;
+            margin-bottom: 8px !important;
+            margin: 0 !important;
+        }
+
+        body form.form p.submit {
+            text-align: center !important;
+            margin: 0 !important;
+            padding-left: 0px !important;
+        }
+
+        body form.form input.text,
+        body form.form select {
+            width: 100% !important;
+        }
+
+        form.form .pd-captcha {
+            position: relative !important;
+            width: 190px !important;
+            left: 0 !important;
+            display: block !important;
+        }
+
+        p.submit {
+            display: block;
+            width: 100%;
+            text-align: left !important;
+        }
+
+        .submit input[type=submit],
+        body form.form p.submit input,
+        a.btn {
+            background-color: #ff000f !important;
+            border: 1px solid #ff000f !important;
+            font-size: 20px;
+            font-family: 'abbvoice', Arial, ;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #fff;
+            border: none;
+            border-radius: 0;
+            padding: 5px 65px;
+            line-height: 13px;
+            background: #0f8cc2;
+            color: #fff;
+            border: 0;
+            cursor: pointer;
+            width: auto;
+            overflow: visible;
+            padding: 0px 45px;
+            vertical-align: middle;
+            text-decoration: none;
+            font-size: 16px !important;
+            line-height: 1.25;
+            font-family: 'abbvoice', Arial, Helvetica, sans-serif;
+            font-weight: 700;
+            border-radius: 34px;
+
+            display: inline-block;
+        }
+
+        body form.form p.submit input:hover,
+        a.btn:hover {
+            background-color: #da000f !important;
+            border: 1px solid #da000f !important;
+        }
+
+        label {
+            text-align: left !important;
+            width: 100% !important;
+            font-weight: 400 !important;
+            padding: 0 0 5px 0 !important;
+            font-size: 16px !important;
+            color: #6b6c6c !important;
+        }
+
+        label.field-label {
+            text-align: left !important;
+            width: 100% !important;
+            font-weight: 700 !important;
+            padding: 0 0 5px 0 !important;
+            font-size: 16px !important;
+            color: #232323 !important;
+            display: block !important;
+        }
+
+        span.value {
+            width: 100% !important;
+            display: block !important;
+        }
+
+        span.value>span {
+            display: inline-block !important;
+            padding-right: 5px !important;
+        }
+
+        form.form p.privacy {
+            margin-bottom: 0px !important;
+            padding-bottom: 0px !important;
+        }
+
+        body form.form p.submit+p {
+            margin-top: 15px !important;
+        }
+
+        .fadeout {
+            position: relative;
+            bottom: 4em;
+            height: 4em;
+            background: -webkit-linear-gradient(rgba(250, 250, 250, 0) 0%, rgba(250, 250, 250, 1) 100%);
+            background-image: -moz-linear-gradient(rgba(250, 250, 250, 0) 0%, rgba(250, 250, 250, 1) 100%);
+            background-image: -o-linear-gradient(rgba(250, 250, 250, 0) 0%, rgba(250, 250, 250, 1) 100%);
+            background-image: linear-gradient(rgba(250, 250, 250, 0) 0%, rgba(250, 250, 250, 1) 100%);
+            background-image: -ms-linear-gradient(rgba(250, 250, 250, 0) 0%, rgba(250, 250, 250, 1) 100%);
+        }
+
+        span.value label.inline {
+            width: auto !important;
+            display: inline !important;
+        }
+
+        p.pd-text label,
+        p.pd-select label,
+        p.pd-textarea label {
+            display: none !important;
+        }
+
+        @media only screen and (max-width:992px) {}
+
+        @media only screen and (max-width:767px) {}
+
+        .justify-content-center {
+            -webkit-box-pack: center !important;
+            -ms-flex-pack: center !important;
+            justify-content: center !important;
+        }
+
+        .align-items-center {
+            -webkit-box-align: center !important;
+            -ms-flex-align: center !important;
+            align-items: center !important
+        }
+
+        .page-header>.container {
+            position: relative;
+            z-index: 4444;
+        }
+
+        .image-holder,
+        .page-header>.bg-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 2;
+        }
+
+        .image-holder {
+            background: rgba(0, 0, 0, .25);
+        }
+
+        .page-header>.bg-image {
+            z-index: 1;
+        }
+
+        .image-holder>img,
+        .image-holder>p>img {
+            position: absolute;
+            visibility: hidden;
+            opacity: 0;
+        }
+
+        .page-header .container {
+            background-color: transparent !important;
+        }
+
+
+        .page-header {
+            /*height: 650px;*/
+            min-height: 850px;
+            /*max-height: 850px;*/
+            padding: 50px 0px;
+            position: relative;
+        }
+
+        .header {
+            padding-bottom: 18px !important;
+        }
+
+        .contact-form {
+            padding: 25px;
+            background: rgba(255, 255, 255, .75);
+            border: solid 1px #ddd;
+        }
+
+        body .content h1 {
+            font-size: 42px;
+        }
+
+        body .content-clean h1 {
+            font-size: 42px;
+        }
+
+        .content.text-center h1:before {
+            display: block;
+            content: "";
+            height: 5px;
+            width: 50px;
+            background: #ff000f;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+
+        .recent-article ul li {
+            -webkit-box-flex: 0;
+            -ms-flex: 0 0 33.3333333333%;
+            flex: 0 0 33.3333333333%;
+            max-width: 33.3333333333%;
+            padding: 12px;
+        }
+
+        .new-footer p,
+        .new-footer p a {
+            color: #f0f0f0 !important;
+        }
+
+        .new-footer h3 {
+            font-size: 14px;
+            margin-bottom: 0px;
+            padding: 0 0 0px 0;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: #a9a9a9 !important;
+        }
+
+        .page-header .content h1,
+        .page-header .content h2 {
+            color: #fff;
+        }
+
+        .page-header .content-clean h1,
+        .page-header .content-clean h2 {
+            color: #fff;
+        }
+
+        .new-footer {
+            padding: 0;
+            padding-top: 20px;
+            background-color: #6e6e6e !important;
+        }
+
+        @media (max-width: 767px) {
+
+            .m-center .content h1:before {
+                display: block;
+                content: "";
+                height: 5px;
+                width: 50px;
+                background: #ff000f;
+                margin: 0 auto;
+                margin-bottom: 20px;
+            }
+
+            .contact-form {
+                margin-top: 20px;
+            }
+
+            .page-header {
+                height: auto;
+                min-height: 0;
+                max-height: none;
+                padding: 50px 0px;
+                position: relative;
+            }
+
+            body .recent-article ul li {
+                -webkit-box-flex: 0;
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 100%;
+                flex: 0 0 100%;
+                max-width: 100%;
+                padding: 12px;
+                text-align: center;
+            }
+
+            body section.praesent-posuere {
+                padding-top: 30px;
+            }
+
+            .footer-bottom ul li {
+                display: block !important;
+            }
+
+            body .content h1 {
+                font-size: 32px;
+            }
+
+            body .content-clean h1 {
+                font-size: 32px;
+            }
+
+            .contact-form {
+                padding: 20px;
+            }
+        }
+
+
+        .footer-bottom ul li,
+        .footer-bottom ul li a {
+            color: #fff !important;
+            border-color: #fff !important;
+        }
+
+
+
+
+        .recent-article div[pardot-region] ul,
+        .recent-article div[pardot-region] ul {
+            display: block !important;
+        }
+
+        .recent-article div[pardot-region] ul li,
+        .recent-article div[pardot-region] ul li {
+            display: list-item !important;
+            -webkit-box-flex: 0 !important;
+            -webkit-box-flex: 0 !important;
+            -ms-flex: 0 0 100% !important;
+            flex: 0 0 100% !important;
+            padding-top: 8px !important;
+            padding-bottom: 0 !important;
+            max-width: 100% !important;
+            padding-left: 0px !important;
+            font-size: 16px;
+            color: #666;
+            list-style-position: inside;
+            list-style: disc;
+            margin-left: 30px;
+        }
+
+        .recent-article div[pardot-region] ul li a {
+            display: inline-block !important;
+        }
+
+        .recent-article ul li a {
+            display: inline-block !important;
+        }
+
+        section.praesent-posuere div[pardot-region] ul,
+        section.praesent-posuere div[pardot-region] ul {
+            display: block !important;
+        }
+
+
+        section.praesent-posuere div[pardot-region] ul li,
+        section.praesent-posuere div[pardot-region] ul li {
+            display: list-item !important;
+            -webkit-box-flex: 0 !important;
+            -webkit-box-flex: 0 !important;
+            -ms-flex: 0 0 100% !important;
+            flex: 0 0 100% !important;
+            padding-top: 8px !important;
+            padding-bottom: 0 !important;
+            max-width: 100% !important;
+            padding-left: 0px !important;
+            font-size: 16px;
+            color: #666;
+            list-style-position: inside;
+            list-style: disc;
+            margin-left: 30px;
+        }
+
+        form.form p {
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+        }
+
+        .greyblock {
+            width: 100%;
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-12">
+                    <div class="logo" pardot-region="logo" pardot-region-type="WYSIWYG">
+                        <a href="https://new.abb.com/" target="_blank"><img
+                                src="https://campaign.abb.com/l/501021/2019-08-06/q7pxgj/501021/182073/ABB_Logo.png"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="image" style="background-color: #ffffff;padding:0px 0px;padding-bottom:0;">
+        <!--<div class="image header-background" pardot-region="header_image" pardot-region-type="WYSIWYG" data-id="39607"
+            data-hml-enabled="1"><img height="222"
+                src="https://campaign.abb.com/l/501021/2022-04-06/x89pgs/501021/1649235587c8TFsaVQ/4_0201_Frisse_lucht_Header_1183x353px.jpg"
+                style="width: 100%; height: 100%; background-color: #ffffff" width="100">
+            </div>-->
+        <div style="display: flex; justify-content: center;">
+            <picture>
+                <source media="(max-width: 576px)"
+                    srcset="https://campaign.abb.com/l/501021/2022-04-13/xchyss/501021/1649833851h356314C/EL_NL_2022_FrisseLucht_Lamp.png">
+                <source media="(min-width: 768px)"
+                    srcset="https://campaign.abb.com/l/501021/2022-07-19/z49y63/501021/1658239601CI8OTdHE/EL_NL_2022_SolutionA_header.png">
+                <img
+                    src="https://campaign.abb.com/l/501021/2022-07-19/z49y63/501021/1658239601CI8OTdHE/EL_NL_2022_SolutionA_header.png">
+            </picture>
+        </div>
+    </section>
+
+
+    <section class="page-header bg-image">
+        <div class="container" style="height:100%;">
+            <div class="row  justify-content-center" style="height:100%;">
+                <div class="col-lg-7 col-md-6 content">
+
+                    <h1 pardot-region="header_content_title" pardot-region-type="simple" style="color:#111111">
+                        Energielabel Label C, of toch gelijk door naar Label A?</h1>
+
+                    <p pardot-region="header_content_body" pardot-region-type="simple"> <b
+                            style="font-size:18px;">Kennisdocument ‘Maak uw kantoor toekomstgericht door verbeterde
+                            energie-efficiëntie –
+                            de weg naar Label C en A’.</b>
+                        <br>
+                        <br>
+                        Ongetwijfeld bent u ermee bekend: per 1 januari 2023 moet uw kantoorgebouw minimaal
+                        energielabel C hebben. Voldoet het gebouw dan niet aan de eisen, dan mag u het per 1 januari
+                        2023 niet meer als kantoor gebruiken. Deze verplichting staat in het Bouwbesluit 2012. Ook
+                        wordt er aangeraden (weliswaar nog niet verplicht) vóór 2030 door te groeien naar Label A.
+                        <br>
+                        <br>
+                        Maar wat gebeurt er nu echt op 1 januari 2023 als u label C niet geregeld heeft? Over
+                        het algemeen is de gemeente, waar het kantoorgebouw is gevestigd, de handhaver. De
+                        gemeente treedt op bij overtreding van de Energielabel C-verplichting. Het ligt dus aan uw
+                        vestigingslocatie wat er daadwerkelijk gaat gebeuren. Het is daarom echt verstandig om
+                        op tijd klaar te zijn, zodat u, als kantooreigenaar, niet aan de willekeur van gemeentes bent
+                        overgeleverd.
+                        <br>
+                        <br>
+                        Wat komt daar allemaal bij kijken, welke stappen moet u doorlopen en welke oplossingen
+                        zijn er? Lees het in het kennisdocument ‘Maak uw kantoor toekomstgericht door verbeterde
+                        energie-efficiëntie – de weg naar Label C en A’.</p>
+                    <div class="greyblock">
+
+                        <div style="background-color:#f1f1f1;margin-left:10px;margin-right:10px;margin-bottom:10px;">
+                            <h4 style="padding:15px; padding-top: 20px">De huidige stand van zaken</h4>
+                            <img src=" https://campaign.abb.com/l/501021/2022-07-19/z49y6d/501021/1658239602vHQZYYew/EL_NL_2022_SolutionA_sky_line.png"
+                                width="100%" pardot-region="shi" pardot-region-type="image"
+                                style="margin-bottom:0px !important;">
+                            <p style="padding:0px 10px;;text-align: left;" pardot-region="sht"
+                                pardot-region-type="basic">
+                                Het Economisch Instituut voor de Bouw (EIB) schatte in april 2022 dat 54% van de
+                                kantoren,
+                                waar de verplichting voor geldt, nog label C moeten aanvragen. Men schat verder dat als
+                                alle kantoren zonder label C nu een label aanvragen, ongeveer een derde een groen label
+                                krijgt. De overige 38 procent van de 65.000 kantoren in Nederland moeten de komende tijd
+                                dus nog aan de slag om te verduurzamen.
+                                <br><br>
+                                Dit is belangrijk. Want alleen met een geregistreerd groen energielabel mag u uw
+                                kantoorgebouw na 1 januari 2023 nog als kantoor gebruiken. De grote kantoren scoren
+                                momenteel over het algemeen beter. Het meeste werk ligt vooral bij de oudere, kleinere
+                                kantoren tot 1.000 vierkante meter.
+                            </p>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-5 col-md-6" style="margin-top:50px;">
+                    <div class="contact-form">
+
+
+
+                        %%content%%
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <section class="praesent-posuere" style=" padding:10px 0px; padding-bottom:0;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="content text-center" pardot-region="recent_article_title22"
+                        pardot-region-type="WYSIWYG">
+                        <h1>Wat betekent energie-efficiëntie volgens label A voor mij?</h1>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="recent-article" style="padding:0px;">
+        <div class="container">
+
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <ul class="justify-content-center">
+                        <li>
+                            <div pardot-region="recent_article_eleven.22" pardot-region-type="WYSIWYG">
+                                <img src="https://campaign.abb.com/l/501021/2022-07-19/z49z7d/501021/1658240203pbdNl5iQ/EL_NL_2022_SolutionA_icon_adviseur_ontwikkelaar.png
+                                " style="width:auto;height:100%;margin-left:auto;margin-right:auto;display:block;">
+                            </div>
+                            <div pardot-region="recent_article_ten_text.22" pardot-region-type="WYSIWYG">
+                                <h3>Adviseur / ontwikkelaar</h3>
+                                <p>“Door de steeds hogere energieprijzen en strenger
+                                    wordende regelgeving staat energie-efficiëntie bij al
+                                    onze klanten hoog op de agenda.”</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div pardot-region="recent_article_eleven.1" pardot-region-type="WYSIWYG">
+                                <img src="https://campaign.abb.com/l/501021/2022-07-19/z49z9h/501021/1658240391R9RLSWkU/EL_NL_2022_SolutionA_icon_system_intergrator.png"
+                                    style="width:auto;height:100%;margin-left:auto;margin-right:auto;display:block;">
+                            </div>
+                            <div pardot-region="recent_article_eleven_text" pardot-region-type="WYSIWYG">
+                                <h3>System integrator / E- en W-installateur</h3>
+                                <p>“De toenemende connectiviteit en de uitgebreide
+                                    integratiemogelijkheden van E- en W-installaties
+                                    zorgen ervoor dat maximale energie-efficiëntie
+                                    tegenwoordig voor iedereen haalbaar is.”</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div pardot-region="recent_article_twelve.3" pardot-region-type="WYSIWYG">
+                                <img src="https://campaign.abb.com/l/501021/2022-07-19/z49z8z/501021/165824039020E6zJpO/EL_NL_2022_SolutionA_icon_eigenaar.png"
+                                    style="width:auto;height:100%;margin-left:auto;margin-right:auto;display:block;">
+                            </div>
+                            <div pardot-region="recent_article_twelve_text.1" pardot-region-type="WYSIWYG">
+                                <h3>Eigenaar / facility manager</h3>
+                                <p>“2030 komt steeds dichterbij en voor die tijd moeten
+                                    wij onze energie-efficiëntie en energiehuishouding op
+                                    orde hebben. Daar werken we stapsgewijs naar toe.”</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <div style="margin-top:5%; margin-bottom:5%;" pardot-region="recent_article_ten.3"
+                        pardot-region-type="WYSIWYG">
+                        <img src="https://campaign.abb.com/l/501021/2022-07-19/z49y66/501021/16582396015WnHGsCN/EL_NL_2022_SolutionA_schema.png"
+                            style="width: 100%; height: auto;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="praesent-posuere" style=" padding:10px 0px; padding-bottom:0;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="content text-center" pardot-region="recent_article_title2.2"
+                        pardot-region-type="WYSIWYG">
+                        <h1>Stapsgewijs naar label A</h1>
+                        <p style="margin-bottom: 40px;">
+                            Een energie-efficiënt gebouw met energielabel A is met de juiste inzet van connectiviteit,
+                            kennis en systemen voor iedereen haalbaar.
+                            Maar hoe bereik je een omgeving waarin techniek geïntegreerd met elkaar samenwerkt aan
+                            energie-efficiëntie? ABB helpt u in een aantal
+
+                            stappen naar een toekomstbestendig gebouw.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="recent-article">
+        <div class="container">
+
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <ul>
+                        <li>
+                            <div pardot-region="recent_article_eleven.4" pardot-region-type="WYSIWYG">
+                                <img src="https://campaign.abb.com/l/501021/2022-07-19/z49z96/501021/1658240391DMZiZoRa/EL_NL_2022_SolutionA_icon_stap1.png"
+                                    style="width:auto;height:100%;margin-left:auto;margin-right:auto;display:block;">
+                            </div>
+                            <div pardot-region="recent_article_ten_text.4" pardot-region-type="WYSIWYG">
+                                <h3>01. Bepalen energiebesparingsmogelijkheden</h3>
+                                <p>Aan de hand van de energiebesparingsverkenner
+                                    van RVO kan eenvoudig worden vastgesteld welke
+                                    besparingsmogelijkheden er zijn.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div pardot-region="recent_article_eleven.2" pardot-region-type="WYSIWYG">
+                                <img src="https://campaign.abb.com/l/501021/2022-07-19/z49z93/501021/1658240391OvDQ4loE/EL_NL_2022_SolutionA_icon_stap2.png"
+                                    style="width:auto;height:100%;margin-left:auto;margin-right:auto;display:block;">
+                            </div>
+                            <div pardot-region="recent_article_eleven_text.2" pardot-region-type="WYSIWYG">
+                                <h3>02. Vraag een maatwerkadvies aan</h3>
+                                <p>Speciaal voor de energieprestaties in de utiliteit
+                                    worden adviezen gegeven. Met zo’n EPAU-advies
+                                    krijgt u inzicht in de mogelijke energieprestaties van
+                                    uw gebouw.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div pardot-region="recent_article_twelve.21" pardot-region-type="WYSIWYG">
+                                <img src="https://campaign.abb.com/l/501021/2022-07-19/z49z99/501021/1658240391YfgL54ME/EL_NL_2022_SolutionA_icon_stap3.png"
+                                    style="width:auto;height:100%;margin-left:auto;margin-right:auto;display:block;">
+                            </div>
+                            <div pardot-region="recent_article_twelve_text.21" pardot-region-type="WYSIWYG">
+                                <h3>03. Inventariseer subsidieregelingen</h3>
+
+                                <p>Voor verbetering van de energie-efficiëntie van
+                                    gebouwen zijn subsidiegelden beschikbaar.</p>
+
+                            </div>
+                        </li>
+                        <li>
+                            <div pardot-region="recent_article_twelve.212" pardot-region-type="WYSIWYG">
+                                <img src="https://campaign.abb.com/l/501021/2022-07-19/z49z9l/501021/1658240391ygZSGFOi/EL_NL_2022_SolutionA_icon_stap4.png"
+                                    style="width:auto;height:100%;margin-left:auto;margin-right:auto;display:block;">
+                            </div>
+                            <div pardot-region="recent_article_twelve_text.212" pardot-region-type="WYSIWYG">
+                                <h3>04. Voer de maatwerkadviezen uit</h3>
+
+                                <p>Voor de stap naar label A zijn integratie van HVAC- en
+                                    E-installaties en gebouwautomatisering een eerste
+                                    vereiste. ABB kan u ondersteunen bij het tot stand
+
+                                    brengen van die integratie.</p>
+
+                            </div>
+                        </li>
+                        <li>
+                            <div pardot-region="recent_article_twelve.412" pardot-region-type="WYSIWYG">
+                                <img src="https://campaign.abb.com/l/501021/2022-07-19/z49z9d/501021/1658240391Lsku2Zd6/EL_NL_2022_SolutionA_icon_stap5.png"
+                                    style="width:auto;height:100%;margin-left:auto;margin-right:auto;display:block;">
+                            </div>
+                            <div pardot-region="recent_article_twelve_text.412" pardot-region-type="WYSIWYG">
+                                <h3>05. Laat een nieuw energielabel opstellen</h3>
+
+                                <p>Schakel hiervoor opnieuw een energieadviseur in om
+
+                                    het nieuwe label vast te stellen.</p>
+
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ADDED ABB EXPERIENCE -->
+    <section class="recent-article">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <ul class="justify-content-center">
+                        <li style="flex:0 0 60%; max-width:60%;padding-top:0px;">
+                            <div class="content" style="margin-top:0px;padding-top:0px;">
+                                <h2 style="text-align: left;">Gelijk aan de slag? Start nu uw gratis advies</h2>
+                                <p style="margin-top: 0px;margin-bottom:0px;" pardot-region="25l"
+                                    pardot-region-type="basic">
+                                    Plan een Accelerate | Co-create | Experience ACE-sessie om samen met ons te werken aan het behalen van uw (duurzaamheids)doelstellingen.</p>
+                                    <br>
+                                <p style="margin-top: 0px;margin-bottom:0px;" pardot-region="24"
+                                    pardot-region-type="basic">
+                                     <a
+                                        href="https://campaign.abb.com/sustainability/cloud"
+                                        style="text-decoration:none;color:#ff000f; text-transform: uppercase;" target="_blank">meer informatie</a></p>
+                            </div>
+                        </li>
+                        <li style="flex:0 0 40%; max-width:40%">
+                            <div>
+                                <img pardot-region="23" pardot-region-type="image" style="max-width:85%"
+                                    src="https://campaign.abb.com/l/501021/2022-08-26/znpfsb/501021/1661508443IM6VyTtr/Unknown.jpeg
+">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END ADDED ABB EXPERIENCE -->
+
+    <section class="praesent-posuere" style=" padding:10px 0px; padding-bottom:0;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="content text-center" pardot-region="recent_article_title8" pardot-region-type="WYSIWYG"
+                        data-id="39713" data-hml-enabled="1">
+                        <h2>
+                            Gerelateerde producten
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="recent-article">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <ul class="justify-content-center">
+                        <li> <a style="text-decoration:none"
+                                href="https://new.abb.com/low-voltage/nl/producten/building-automation/product-range/abb-cylon"
+                                target="_blank">
+                                <div pardot-region="recent_article_14" pardot-region-type="WYSIWYG" data-id="39695"
+                                    data-hml-enabled="1" style="text-align: center;">
+                                    <a href="https://new.abb.com/low-voltage/nl/producten/building-automation/product-range/abb-cylon"
+                                        style="text-decoration: none;">
+                                        <img src="https://campaign.abb.com/l/501021/2022-07-19/z49y69/501021/1658239601DzGWY72B/EL_NL_2022_SolutionA_HVAC.png"
+                                            style="width: auto; height: 250px;margin-left:auto;margin-right:auto;display:block;"
+                                            height="250px" width="auto"></a>
+                                </div>
+                                <div pardot-region="recent_article_14_text" pardot-region-type="WYSIWYG" data-id="39697"
+                                    data-hml-enabled="1" style="text-align: center;">
+                                    <a href="https://new.abb.com/low-voltage/nl/producten/building-automation/product-range/abb-cylon"
+                                        style="text-decoration: none;">
+                                        <h3 style="text-align: center;">ABB Cylon® HVAC Solutions</h3>
+                                    </a>
+                                </div>
+                            </a>
+                        </li>
+                        <li><a style="text-decoration:none"
+                                href="https://new.abb.com/low-voltage/nl/producten/building-automation/product-range/abb-cylon/products/visualisatie/abb-fusionair-smart-sensor"
+                                target="_blank">
+                                <div pardot-region="recent_article_131" pardot-region-type="WYSIWYG" data-id="39693"
+                                    data-hml-enabled="1" style="text-align: center;">
+                                    <a href="https://new.abb.com/low-voltage/nl/producten/building-automation/product-range/abb-cylon/products/visualisatie/abb-fusionair-smart-sensor"
+                                        style="text-decoration: none;"><img align="center"
+                                            src="https://campaign.abb.com/l/501021/2022-07-19/z49y5z/501021/1658239601wrPNCKkQ/EL_NL_2022_SolutionA_FusionAir.png"
+                                            style="width: auto; height: 250px;margin-left:auto;margin-right:auto;display:block;"
+                                            height="250px" width="auto">
+                                </div>
+                            </a>
+                            <div pardot-region="recent_article_131_text" pardot-region-type="WYSIWYG" data-id="39715"
+                                data-hml-enabled="1" style="text-align: center;">
+                                <a href="https://new.abb.com/low-voltage/nl/producten/building-automation/product-range/abb-cylon/products/visualisatie/abb-fusionair-smart-sensor"
+                                    style="text-decoration: none;">
+                                    <h3 style="text-align: center;">ABB FusionAir® Smart Sensor</h3>
+                                </a>
+                            </div>
+                            </a>
+                        </li>
+                        <li><a style="text-decoration:none"
+                                href="https://www.busch-jaeger.nl/productoplossing/aanwezigheidsmelder" target="_blank">
+                                <div pardot-region="recent_article_13312" pardot-region-type="WYSIWYG" data-id="39693"
+                                    data-hml-enabled="1" style="text-align: center;">
+                                    <a href="https://www.busch-jaeger.nl/productoplossing/aanwezigheidsmelder"
+                                        style="text-decoration: none;"><img align="center"
+                                            src="https://campaign.abb.com/l/501021/2022-07-19/z49y5p/501021/1658239600ZSEhSnPw/EL_NL_2022_SolutionA_Aanwezigheidsmelders.png"
+                                            style="width: auto; height: 250px;margin-left:auto;margin-right:auto;display:block;"
+                                            height="250px" width="auto">
+                                </div>
+                            </a>
+                            <div pardot-region="recent_article_13312_text" pardot-region-type="WYSIWYG" data-id="39715"
+                                data-hml-enabled="1" style="text-align: center;">
+                                <a href="https://www.busch-jaeger.nl/productoplossing/aanwezigheidsmelder"
+                                    style="text-decoration: none;">
+                                    <h3 style="text-align: center;">Aanwezigheidsmelders</h3>
+                                </a>
+                            </div>
+                            </a>
+                        </li>
+                        <li><a style="text-decoration:none"
+                                href="https://new.abb.com/low-voltage/nl/producten/system-pro-m/energie-efficiente-producten/system-pro-m-compact-insite"
+                                target="_blank">
+                                <div pardot-region="recent_article_1309" pardot-region-type="WYSIWYG" data-id="39693"
+                                    data-hml-enabled="1" style="text-align: center;">
+                                    <a href="https://new.abb.com/low-voltage/nl/producten/system-pro-m/energie-efficiente-producten/system-pro-m-compact-insite"
+                                        style="text-decoration: none;"><img align="center"
+                                            src="https://campaign.abb.com/l/501021/2022-07-19/z49y6h/501021/1658239602TbLVO1vH/EL_NL_2022_SolutionA_SystemProM.png"
+                                            style="width: auto; height: 250px;margin-left:auto;margin-right:auto;display:block;"
+                                            height="250px" width="auto">
+                                </div>
+                            </a>
+                            <div pardot-region="recent_article_1309_text" pardot-region-type="WYSIWYG" data-id="39715"
+                                data-hml-enabled="1" style="text-align: center;">
+                                <a href="https://new.abb.com/low-voltage/nl/producten/system-pro-m/energie-efficiente-producten/system-pro-m-compact-insite"
+                                    style="text-decoration: none;">
+                                    <h3 style="text-align: center;">System pro M compact® Insite</h3>
+                                </a>
+                            </div>
+                            </a>
+                        </li>
+                        <li><a style="text-decoration:none"
+                                href="https://new.abb.com/benelux/over-ons/businesses/electrification/abb-ability/energy-and-asset-management"
+                                target="_blank">
+                                <div pardot-region="recent_article_1387" pardot-region-type="WYSIWYG" data-id="39693"
+                                    data-hml-enabled="1" style="text-align: center;">
+                                    <a href="https://new.abb.com/benelux/over-ons/businesses/electrification/abb-ability/energy-and-asset-management"
+                                        style="text-decoration: none;"><img align="center"
+                                            src="https://campaign.abb.com/l/501021/2022-07-19/z49y5s/501021/1658239600fMz35KGL/EL_NL_2022_SolutionA_ABB_Ability.png"
+                                            style="width: auto; height: 250px;margin-left:auto;margin-right:auto;display:block;"
+                                            height="250px" width="auto">
+                                </div>
+                            </a>
+                            <div pardot-region="recent_article_1387_text" pardot-region-type="WYSIWYG" data-id="39715"
+                                data-hml-enabled="1" style="text-align: center;">
+                                <a href="https://new.abb.com/benelux/over-ons/businesses/electrification/abb-ability/energy-and-asset-management"
+                                    style="text-decoration: none;">
+                                    <h3 style="text-align: center;">ABB Ability™ Energy & Asset Manager</h3>
+                                </a>
+                            </div>
+                            </a>
+                        </li>
+                        <li><a style="text-decoration:none"
+                                href="https://new.abb.com/medium-voltage/packaging-and-solutions/energy-storage-solutions"
+                                target="_blank">
+                                <div pardot-region="recent_article_13" pardot-region-type="WYSIWYG" data-id="39693"
+                                    data-hml-enabled="1" style="text-align: center;">
+                                    <a href="https://new.abb.com/medium-voltage/packaging-and-solutions/energy-storage-solutions"
+                                        style="text-decoration: none;"><img align="center"
+                                            src="https://campaign.abb.com/l/501021/2022-07-19/z49y5w/501021/1658239601PmRTFmqD/EL_NL_2022_SolutionA_eStorage.png"
+                                            style="width: auto; height: 250px;margin-left:auto;margin-right:auto;display:block;"
+                                            height="250px" width="auto">
+                                </div>
+                            </a>
+                            <div pardot-region="recent_article_13_text" pardot-region-type="WYSIWYG" data-id="39715"
+                                data-hml-enabled="1" style="text-align: center;">
+                                <a href="https://new.abb.com/medium-voltage/packaging-and-solutions/energy-storage-solutions"
+                                    style="text-decoration: none;">
+                                    <h3 style="text-align: center;">ABB eStorage Flex Battery Energy Storage</h3>
+                                </a>
+                            </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <ul class="justify-content-center">
+                        <li><a style="text-decoration:none" href="https://new.abb.com/" target="_blank">
+                                <div pardot-region="recent_article_16" pardot-region-type="WYSIWYG" data-id="39701"
+                                    data-hml-enabled="1"></div>
+                                <div pardot-region="recent_article_16_text" pardot-region-type="WYSIWYG" data-id="39719"
+                                    data-hml-enabled="1"></div>
+                            </a>
+                        </li>
+                        <li><a style="text-decoration:none"
+                                href="https://new.abb.com/low-voltage/launches/xt/features/motor-protection"
+                                target="_blank">
+                                <div pardot-region="recent_article_17" pardot-region-type="WYSIWYG" data-id="39703"
+                                    data-hml-enabled="1"></div>
+                                <div pardot-region="recent_article_17_text" pardot-region-type="WYSIWYG" data-id="39705"
+                                    data-hml-enabled="1"></div>
+                            </a>
+                        </li>
+                        <li><a style="text-decoration:none"
+                                href="https://new.abb.com/low-voltage/launches/xt/features/power-controller"
+                                target="_blank">
+                                <div pardot-region="recent_article_18" pardot-region-type="WYSIWYG" data-id="39707"
+                                    data-hml-enabled="1"></div>
+                                <div pardot-region="recent_article_18_text" pardot-region-type="WYSIWYG" data-id="39709"
+                                    data-hml-enabled="1"></div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="new-footer">
+        <div class="container"
+            style="background-color: #6e6e6e !important; padding-top:20px; padding-bottom:20px; max-width:1200px !important;">
+            <div class="row align-items-center">
+                <div class="col-md-12">
+                    <div class="footer-bottom" pardot-region="footer_bottom" pardot-region-type="WYSIWYG">
+                        <ul>
+                            <li>&copy; Copyright 2020&nbsp;ABB</li>
+                            <li><a style="text-decoration:none" href="https://new.abb.com/provider-information"
+                                    target="_blank">Provider information</a></li>
+                            <li><a style="text-decoration:none" href="https://new.abb.com/privacy-policy/"
+                                    target="_blank">Cookie and Privacy Policy</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+    </section>
+    <!-- jQuery -->
+    <script src="https://campaign.abb.com/l/501021/2019-08-06/q7pxgx/501021/182085/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('a[href=#top]').click(function (e) {
+                e.preventDefault();
+                $('html, body').animate({
+                    scrollTop: 0
+                }, 'slow');
+                return false;
+            });
+
+
+            $('a[href=#contact-us]').click(function (e) {
+                e.preventDefault();
+                $('html,body').animate({
+                        scrollTop: $("#contact-us").offset().top - 80
+                    },
+                    'slow');
+                return false;
+            });
+
+
+            $('a[href=#more]').click(function (e) {
+                e.preventDefault();
+                $('html,body').animate({
+                        scrollTop: $("#more").offset().top - 80
+                    },
+                    'slow');
+                return false;
+            });
+
+
+
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+
+            (function () {
+                $('.header-menu ul > li:has(ul)').append("<i class='fa fa-chevron-down'>").addClass(
+                    'has-sub-menu').children('ul').addClass('sub-menu');
+                $('.header-menu ul > li>i').on("click", function (e) {
+                    e.preventDefault();
+                    $(this).toggleClass('active').prev("ul").toggle()
+                })
+            }());
+        });
+    </script>
+    <script>
+        if (window.self !== window.top) {
+
+            //run this code if in an iframe
+            document.getElementById("demo").innerHTML =
+                "<style>.d-none{display:block!important}.d-inline{display:inline!important}.d-inline-block{display:inline-block!important}.d-block{display:block!important}@media (min-width:576px){.d-sm-none{display:block!important}.d-sm-block{display:block!important}}@media (min-width:768px){.d-md-none{display:block!important}.d-md-block{display:block!important}}@media (min-width:992px){.d-lg-none{display:block!important}.d-lg-block{display:block!important}}.slider,.slider img{display:block !important;}.embed-responsive {position: relative;display: block;width: 100%;padding: 0;overflow: hidden;padding-top:56.25%;}.embed-responsive:before{}.embed-responsive iframe, .embed-responsive video {position: absolute;	top: 0;	left: 0;width: 100%;height: 100%;}";
+
+        } else {
+
+            //run code if not in an iframe
+            document.getElementById("demo").innerHTML = "";
+        }
+    </script>
+    <script>
+        $(".slider p img").unwrap();
+    </script>
+    <script>
+        $(window).on("load", function () {
+            if (window.location !== window.parent.location) {
+                // The page is in an iframe
+
+            } else {
+
+            }
+
+        });
+    </script>
+    <script>
+        var labels = document.querySelectorAll(
+            "p.pd-text label, p.pd-select label, p.pd-number label, p.pd-textarea label");
+        var i = labels.length;
+        while (i--) {
+            var label = labels.item(i);
+            var text = label.textContent;
+            label.parentNode.classList.contains("required") && (text += " *");
+            var nextElement = label.nextElementSibling;
+            if (nextElement) {
+                if (nextElement.tagName == 'SELECT') {
+                    nextElement.options[0].text = text;
+                } else {
+                    nextElement.setAttribute("placeholder", text);
+                }
+                //label.parentNode.removeChild(label);
+            }
+        }
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            function yourFunction() {
+
+                // store the image link inside a variable from 'src' attribute
+                var getImageSrc = $('.image-holder img').attr('src');
+
+                // add div background image using the variable above
+                $('.page-header > .bg-image').css('background-image', 'url(' + getImageSrc + ')');
+
+                setTimeout(yourFunction, 100);
+            }
+
+            yourFunction();
+
+
+
+            $("#privacyPolicy").hide();
+        });
+
+        $("#readMoreLink").click(function () {
+            if ($("#privacyPolicy").is(":hidden")) {
+                event.preventDefault();
+                $("#privacyPolicy").slideDown("slow");
+                $("#readMoreLink").html("CLOSE <i class='fas fa-chevron-up'>")
+                $("#fadeout").toggleClass("fadeout");
+            } else if ($("#privacyPolicy").is(":visible")) {
+                event.preventDefault();
+                $("#fadeout").toggleClass("fadeout");
+                $("#privacyPolicy").slideUp("fast");
+                $("#readMoreLink").delay(800).html("SEE MORE &nbsp;<i class='fas fa-chevron-down'>")
+            } else {
+                $("#privacyPolicy").hide();
+            }
+        });
+    </script>
+</body>
+
+</html>
