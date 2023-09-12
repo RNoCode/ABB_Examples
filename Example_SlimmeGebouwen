@@ -1,0 +1,2095 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="%%description%%">
+  <title>%%title%%</title>
+
+  <!-- Bootstrap core CSS and icon font  -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,200,0,0" />
+  <link href="https://campaign.abb.com/l/501021/2020-05-04/r8fjgn/501021/217523/Fixed_Master_CSS_Global_Webinar_Template.css" rel="stylesheet">
+
+
+  <style>
+
+  .image-container .background-img1 { background-image: url("images/img_1.jpg"); }
+  .image-container .foreground-img1 { background-image: url("images/img_2.jpg"); }
+
+  .image-container .background-img2 { background-image: url("images/img_1.jpg"); }
+  .image-container .foreground-img2 { background-image: url("images/img_2.jpg"); }
+
+  .image-container .background-img3 { background-image: url("images/img_1.jpg"); }
+  .image-container .foreground-img3 { background-image: url("images/img_2.jpg"); }
+
+  .image-container .background-img4 { background-image: url("images/img_1.jpg"); }
+  .image-container .foreground-img4 { background-image: url("images/img_2.jpg"); }
+
+  .image-container .background-img5 { background-image: url("images/img_1.jpg"); }
+  .image-container .foreground-img5 { background-image: url("images/img_2.jpg"); }
+
+  .image-container .background-img6 { background-image: url("images/img_1.jpg"); }
+  .image-container .foreground-img6 { background-image: url("images/img_2.jpg"); }
+
+  .image-container .background-img7 { background-image: url("images/img_1.jpg"); }
+  .image-container .foreground-img7 { background-image: url("images/img_2.jpg"); }
+
+  .image-container .background-img8 { background-image: url("images/img_1.jpg"); }
+  .image-container .foreground-img8 { background-image: url("images/img_2.jpg"); }
+
+  .image-container .background-img9 { background-image: url("images/img_1.jpg"); }
+  .image-container .foreground-img9 { background-image: url("images/img_2.jpg"); }
+
+  .image-container .background-img10 { background-image: url("images/img_1.jpg"); }
+  .image-container .foreground-img10 { background-image: url("images/img_2.jpg"); }
+
+  .image-container .background-img11 { background-image: url("images/img_1.jpg"); }
+  .image-container .foreground-img11 { background-image: url("images/img_2.jpg"); }
+
+  .image-container .background-img12 { background-image: url("images/img_1.jpg"); }
+  .image-container .foreground-img12 { background-image: url("images/img_2.jpg"); }
+
+  /* Template Style */
+body {
+	overflow-x: hidden;
+	font-family: 'abbvoice', Verdana, Arial,sans-serif;
+	font-size: 16px;
+	letter-spacing:0px;
+	color: #000;
+	}
+
+p {
+	line-height: 1.75;
+	}
+
+a,
+.theme-text,
+.text-primary,
+.service-heading {
+
+	/* Primary (Blue) Color */
+
+	color: #FF000F;
+
+	}
+
+
+.theme-btn,
+#pardot-form input[type="submit"],
+.image-section-text,
+.theme-btn,
+#mainNav .navbar-toggler,
+ul.page-list li:before {
+
+	/*	Primary (Blue) Background Color  */
+
+	background-color: #FF000F;
+
+	}
+
+
+
+a:hover,
+#mainNav .navbar-brand.active,
+#mainNav .navbar-brand:active,
+#mainNav .navbar-brand:focus,
+#mainNav .navbar-brand:hover {
+
+	/*	Secondary (Yellow) Color	*/
+
+	color: #fec810;
+
+	}
+
+
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover,
+#pardot-form input[type="submit"]:hover {
+
+	background-color: #ff000f;
+
+	}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 600;
+	color: #000;
+	}
+
+h5 {
+  font-family: "abbvoice";
+  font-size: 19px;
+  font-weight: 800;
+  line-height: 29px;
+  }
+
+a, a:hover {
+  text-decoration: none;
+}
+
+.pb-0 {
+	padding-bottom: 0 !important;
+	}
+
+.gray-bg {
+  background-color: #e5e5e5;
+  }
+
+.font-27 {
+  font-size: 27px;
+  line-height: 37px;
+  }
+
+@media (min-width: 1600px) {
+	.container {
+		    max-width: 1300px;
+	}
+}
+
+#selectHero {
+	display: none;
+	}
+
+.page-section {
+	padding:0;
+	}
+
+.about-section {
+	padding: 100px 0;
+	}
+
+.gray-background {
+  background-color: #f6f6f6 !important; 
+}
+
+.page-w-p {
+  background-color: #fff;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+h2.section-heading {
+	font-family: 'abbvoice', Arial,sans-serif;
+	font-size: 50px;
+	margin: 0 0 10px;
+	text-transform: none;
+	line-height: 60px;
+	text-align: center;
+	}
+
+h2.section-heading::before {
+	position: absolute;
+	width: 76px;
+	height: 8px;
+	background: #FF000F;
+	content: " ";
+	top: -40px;
+	left: 47%;
+}
+
+h2.section-heading-left {
+  position: relative;
+  text-align: left;
+	font-family: 'abbvoice', Arial,sans-serif;
+	font-size: 40px;
+	margin:30px 0 10px;
+	text-transform: none;
+	line-height: 60px;
+	}
+
+h2.section-heading-left::before {
+	position: absolute;
+	width: 76px;
+	height: 8px;
+	background: #FF000F;
+	content: " ";
+	top: -30px;
+	left: 5px;
+}
+
+h3.section-heading {
+  position: relative;
+  text-align: left;
+	font-family: 'abbvoice', Arial,sans-serif;
+	font-size: 23px;
+	margin:25px 0 10px;
+	text-transform: none;
+	line-height: 33px;
+	}
+
+h3.section-heading::before {
+  position: absolute;
+  width: 50px;
+  height: 5px;
+  background: #FF000F;
+  content: " ";
+  top: -30px;
+  left: 5px;
+}
+
+h4.section-heading {
+  position: relative;
+  text-align: left;
+	font-family: 'abbvoice', Arial,sans-serif;
+	font-size:35px;
+	margin:25px 0 10px;
+	text-transform: none;
+	line-height:45px;
+	}
+
+h4.section-heading::before {
+  position: absolute;
+  width: 50px;
+  height: 5px;
+  background: #FF000F;
+  content: " ";
+  top: -20px;
+  left: 5px;
+}
+
+h4.line-c::before {
+  position: absolute;
+  width: 50px;
+  height: 5px;
+  background: #FF000F;
+  content: " ";
+  top: -20px;
+  left: 47%;
+  margin: auto;
+}
+
+.light {
+  font-family: "abbvoice" !important;
+  font-weight:300;
+}
+
+.sub-heading p {
+	font-family: 'abbvoice', Arial,sans-serif;
+	font-size: 36px;
+	line-height: 44px;
+	color: #000;
+}
+
+h2.section-heading-small {
+	font-family: 'abbvoice', Arial,sans-serif;
+	font-size: 47px;
+	margin:0 0 10px;
+	text-transform: none;
+	line-height: 58px;
+	}
+
+.hero-bottom {
+  font-family: 'abbvoice', Arial,sans-serif;
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  }
+
+.mt-45 {
+  margin-top: 45px;
+}
+
+.body-text ul {
+	font-family: 'abbvoice', Arial,sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 20px;
+  margin-top: -10px;
+}
+
+.jurney_bg {
+	background-color: #ffffff;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	}
+
+	.growth_bg {
+	background-color: #d95642;
+	color: #fff;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	}
+
+.larg-list ul {
+  font-size: 21px;
+  padding-left: 21px;
+  margin-bottom: 30px;
+  }
+
+.nav-pills .nav-link {
+  border-radius: 0;
+  border: 2px solid #ffffff;
+  background-color: #d9d9d9;
+  padding: 12px;
+  }
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link,
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link:hover {
+  background-color:#FF000F;
+  color: #ffffff !important;
+}
+
+.secondary-pills .nav-link {
+  border-radius: 0;
+  border: none;
+  border-bottom: 2px solid #d9d9d9;
+  background-color: #fff;
+  padding: 12px;
+  }
+
+.secondary-pills .nav-link.active, .secondary-pills .show>.nav-link,
+.secondary-pills .nav-link.active, .secondary-pills .show>.nav-link:hover {
+  background-color:#ffffff;
+  color: #000 !important;
+  border-bottom: 2px solid #FF000F;
+}
+
+.footer-bg {
+	background-color: #666769;
+}
+
+footer {
+	background-color: #666769;
+	text-align: left;
+	color: #000;
+	background-size: cover;
+	background-position: center right;
+	padding: 30px 0 20px;
+	}
+
+.page-section h3.section-subheading {
+	font-size: 16px;
+	font-weight: 400;
+	font-style: italic;
+	margin-bottom: 75px;
+	text-transform: none;
+	}
+
+.icon-list ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.icon-list ul li {
+	padding: 20px;
+	display: inline-block;
+	vertical-align: top;
+	max-width: 240px;
+	margin-top: 30px;
+}
+
+.icon-list ul li h3 {
+	font-size: 30px;
+	line-height: 40px;
+	font-family: 'abbvoice', Arial,sans-serif;
+	margin-bottom: 15px;
+}
+
+.icon-list ul li p {
+	font-size: 18px;
+	line-height: 26px;
+	font-family: 'abbvoice', Arial,sans-serif;
+	margin-bottom: 15px;
+}
+
+.icon-list ul li img {
+	width: 180px;
+	max-width: 100%;
+	height: auto;
+}
+
+@media (min-width: 768px) {
+	section {
+	padding: 120px 0 80px 0;
+	}
+}
+
+::-moz-selection {
+	background-color:#333;
+	text-shadow: none;
+	color: #fff;
+	}
+
+::selection {
+	background-color:#333;
+	text-shadow: none;
+	color: #fff;
+	}
+
+.border-div {
+  border: 3px solid #c2bebe;
+  margin: 20px 0px;
+  display: block;
+  }
+
+img::-moz-selection {
+	background: transparent;
+	}
+
+img::selection {
+	background: transparent;
+	}
+
+img::-moz-selection {
+	background: transparent;
+	}
+
+.btn {
+	font-weight: 700;
+	text-decoration: none;
+	}
+
+.btn-xl {
+	font-size: 18px;
+	padding: 20px 40px;
+	}
+
+.main-nav {
+	margin-left: 150px;
+}
+
+.theme-btn {
+	border: none !important;
+	border-radius: 30px;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 0px;
+	padding: 12px 40px;
+	min-width: 200px;
+	}
+
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover,
+#pardot-form input[type="submit"]:hover {
+	border: none !important;
+	color: white;
+	}
+
+.btn-primary:active, .btn-primary:focus {
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	}
+
+.white-btn {
+	background: #fff !important;
+	color: #000 !important;
+	}
+
+.video-block iframe {
+  border-top-right-radius: 210px;
+  border-bottom-right-radius: 210px;
+  overflow: hidden;
+  }
+
+header.masthead {
+	background-color: #fff;
+	text-align: left;
+	background-size: cover;
+	background-position: center center;
+	padding-top: 90px;
+	background-repeat: repeat;
+	padding-bottom: 0px;
+	position: relative;
+	color: #000;
+	}
+
+header.masthead .intro-text {
+	color: #000;
+	}
+
+header.masthead .intro-text .intro-lead-in {
+	font-size: 22px;
+	font-style: italic;
+	line-height: 22px;
+	margin-bottom: 25px;
+	}
+
+header.masthead .intro-text .intro-heading::before {
+	position: absolute;
+	width: 76px;
+	height: 8px;
+	background: #FF000F;
+	content: " ";
+	top: -40px;
+	}
+
+header.masthead .intro-text .intro-heading {
+	font-size: 56px;
+	line-height: 67px;
+	font-family: 'abbvoice', Arial,sans-serif;
+	font-weight: bold;
+	letter-spacing: 0px;
+	margin-bottom: 10px;
+	}
+
+
+.image-container {
+  position: relative;
+  width: 1200px;
+  height:390px;
+  }
+
+.image-container .img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size:1200px 100%;
+  }
+
+.image-container .foreground-img1,
+.image-container .foreground-img2,
+.image-container .foreground-img3,
+.image-container .foreground-img4,
+.image-container .foreground-img5,
+.image-container .foreground-img6,
+.image-container .foreground-img7,
+.image-container .foreground-img8,
+.image-container .foreground-img9,
+.image-container .foreground-img10,
+.image-container .foreground-img11,
+.image-container .foreground-img12 {
+  width:49.5%;
+  }
+
+.image-container .slider {
+  position: absolute;
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 100%;
+  background: rgba(242, 242, 242, 0.1);
+  outline: none;
+  margin: 0;
+  transition: all 0.2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+.image-container .slider:hover {
+  background: rgba(242, 242, 242, 0.1);
+  }
+
+.image-container .slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width:10px;
+  height:390px;
+  background: #FF000F;
+  cursor: pointer;
+  }
+
+.image-container .slider::-moz-range-thumb {
+  width: 3px;
+  height:386px;
+  background: white;
+  cursor: pointer;
+  }
+
+.image-container .slider-button1,
+.image-container .slider-button2,
+.image-container .slider-button3,
+.image-container .slider-button4,
+.image-container .slider-button5,
+.image-container .slider-button6,
+.image-container .slider-button7,
+.image-container .slider-button8,
+.image-container .slider-button9,
+.image-container .slider-button10,
+.image-container .slider-button11,
+.image-container .slider-button12 {
+  pointer-events: none;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  left: calc(50% - 28px);
+  top: calc(50% - 28px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:1px solid  #FF000F;
+  }
+
+.image-container .slider-button1:after,
+.image-container .slider-button2:after,
+.image-container .slider-button3:after,
+.image-container .slider-button4:after,
+.image-container .slider-button5:after,
+.image-container .slider-button6:after,
+.image-container .slider-button7:after,
+.image-container .slider-button8:after,
+.image-container .slider-button10:after,
+.image-container .slider-button11:after,
+.image-container .slider-button12:after {
+  content: "";
+  padding: 3px;
+  display: inline-block;
+  border: solid #000000;
+  border-width: 0 2px 2px 0;
+  transform: rotate(-45deg);
+  }
+
+.image-container .slider-button1:before,
+.image-container .slider-button2:before,
+.image-container .slider-button3:before,
+.image-container .slider-button4:before,
+.image-container .slider-button5:before,
+.image-container .slider-button6:before,
+.image-container .slider-button7:before,
+.image-container .slider-button8:before,
+.image-container .slider-button9:before,
+.image-container .slider-button10:before,
+.image-container .slider-button11:before,
+.image-container .slider-button12:before {
+  content: "";
+  padding: 3px;
+  display: inline-block;
+  border: solid #000000;
+  border-width: 0 2px 2px 0;
+  transform: rotate(135deg);
+  }
+
+.numbered-list ol {
+  padding: 0;
+  }
+
+.numbered-list ol li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 5px;
+  line-height: 32px;
+  }
+
+.red-number {
+  background-color: red;
+  color: white;
+  padding: 5px;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 18px;
+  width: 30px;
+  display: inline-block;
+  height: 30px;
+  text-align: center;
+  line-height: 19px;
+  }
+
+.host {
+  padding: 10px 0px;
+  background-color: #ff000e;
+}
+
+.form-box {
+  padding:35px 25px;
+  border:solid 1px #ddd;
+  }
+
+::-webkit-input-placeholder { /* Edge */
+  color: #6e7281;
+	}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #6e7281;
+	}
+
+::placeholder {
+  color: #6e7281;
+	}
+
+.form-block {
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.07);
+	max-width: 600px;
+	padding: 40px;
+	text-align: center;
+	box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.07);
+	transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+	background-color: rgba(255,255,255,0.94);
+	min-height:400px;
+	border-radius: 5px;
+	margin-top: 20px;
+	}
+
+.form-title {
+	margin-bottom:20px;
+	}
+
+.form-block h2 {
+	font-weight: 500;
+	text-transform: capitalize;
+	font-size: 27px;
+	color: #282727;
+	}
+
+.form-block h3 {
+	font-weight: normal;
+	color: #595959;
+	font-size: 16px;
+	margin: 15px 0;
+	line-height: 26px;
+	}
+
+#pardot-form p {
+	position: relative;
+	text-align: center;
+	padding: 0 !important;
+	vertical-align: top;
+	}
+
+#pardot-form select {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	background-image: url(http://bit.ly/2ScJqxG);
+	background-repeat: no-repeat, repeat;
+	background-position: right .7em top 50%, 0 0;
+	background-size: .65em auto, 100%;
+	}
+
+#pardot-form input,
+#pardot-form select,
+#pardot-form textarea,
+#pardot-form option {
+  border-radius: 0px;
+  padding: 12px 15px !important;
+  width: 100% !important;
+  font-size: 14px !important;
+  border: 1px solid #9fa1a2 !important;
+  background-color: #f7f8f9;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  max-height: 80px !important;
+  margin-bottom: 10px;
+}
+
+#pardot-form .pd-select {
+	width: 100% !important;
+	}
+
+#pardot-form option {
+	font-weight: normal;
+	display: block;
+	white-space: pre;
+	min-height: 1.2em;
+	padding: 0px 2px 1px;
+	}
+
+#pardot-form input[type="submit"] {
+  border-radius: 35px;
+  width: auto !important;
+  display: inline-block;
+  padding: 9px 20px !important;
+  font-weight: bold !important;
+  text-align: center;
+  letter-spacing: 0;
+  text-decoration: none;
+  transition: 300ms ease-out;
+  color: #fff !important;
+  max-width: 100% !important;
+  cursor: pointer;
+  border: none !important;
+  font-size: 17px !important;
+  line-height: 27px !important;
+  min-width: 150px;
+  text-transform: uppercase;
+	}
+
+#pardot-form .field-label {
+	color: #828282;
+	font-size: 14px;
+	line-height: 22px;
+	}
+
+#pardot-form .inline {
+	color: #828282;
+	}
+
+form.form select {
+	color: #828282 !important;
+	}
+
+#pardot-form input, #pardot-form select, #pardot-form textarea {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	width: 100% !important;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+	}
+
+#pardot-form input[type="checkbox"] {
+	-webkit-appearance: checkbox;
+	-moz-appearance: checkbox;
+	appearance: checkbox;
+	max-width: 10%;
+	vertical-align: top;
+	box-shadow: none !important;
+	margin-top: 7px;
+	font-size: 14px !important;
+	}
+
+#pardot-form .pd-checkbox label {
+	width: 86% !important;
+	vertical-align: top;
+	display:inline-block;
+	text-align:left;
+	line-height: 22px;
+	margin-right:0 !important;
+	font-size: 15px;
+	color:#000;
+	}
+
+#pardot-form .pd-checkbox span.value {
+	margin-left: 0 !important;
+	}
+
+#pardot-form p.form-field {
+	margin:20px 0 0 0 !important;
+	}
+
+form.form p.submit {
+	margin: 1em 0 .2em 0 !important;
+	}
+
+@media only screen and (min-width: 600px) {
+	#pardot-form p.form-field {
+	margin: 15px 0 0 0 !important;
+	padding: 0 !important;
+	width: 100%;
+	display: inline-block;
+	}
+}
+#pardot-form input:focus,
+#pardot-form textarea:focus {
+	outline: 0;
+}
+
+.form-terms {
+	text-align: center;
+	margin-top: 10px;
+	font-size: 13px;
+	color: #ccc;
+	letter-spacing: 0px;
+	}
+
+.form-terms a {
+	opacity: 0.5;
+	border-bottom: 1px solid;
+	}
+
+.form-terms a:hover {
+	text-decoration:none;
+	opacity: 0.8;
+	}
+
+.footer {
+	padding: 0;
+	text-align: center;
+	background: #000;
+	}
+
+.team-image-box {
+	padding:0px 25px 0px 25px;
+	margin-top: 20px;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+	text-align: left;
+	}
+
+.team-image-box img {
+	width: 100%;
+	max-width:100%;
+	margin-bottom: 20px;
+	}
+
+.team-image-box h4 {
+	font-family: 'abbvoice', Arial,sans-serif;
+	margin-bottom: 10px;
+	font-size: 22px;
+	line-height: 33px;
+	color: #FF000F;
+	}
+
+.team-image-box p strong {
+	font-family: 'abbvoice', Arial,sans-serif;
+	}
+
+
+.service-icon-box {
+	padding: 0px;
+	margin-top: 30px;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+	text-align: left;
+	}
+
+.service-icon-box img {
+	max-width:100%;
+	margin-bottom:5px;
+	}
+
+.service-icon-box h4 {
+	font-family: 'abbvoice', Arial,sans-serif;
+	margin-top: 10px;
+	font-size: 19px;
+	line-height: 33px;
+	color: #000;
+	margin-bottom:17px;
+	}
+
+.team-image-box p strong {
+	font-family: 'abbvoice', Arial,sans-serif;
+	}
+
+.footer-links p, .footer-links a {
+ font-family: 'abbvoice', Arial,sans-serif;
+ font-size: 17px;
+	color: #000;
+	display: inline-block;
+}
+
+.footer-links h4 {
+  color: #fff;
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 27px;
+  font-family: 'abbvoice', Arial,sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.footer-links h4 a {
+	font-size: 2.4rem !important;
+	line-height: 3.2rem !important;
+	font-family: 'abbvoice', Arial,sans-serif;
+	font-weight: 400;
+}
+
+.footer-links a {
+  font-family: 'abbvoice', Arial,sans-serif;
+  color: #fff;
+  font-size: 17px !important;
+  display: block;
+  text-decoration: none;
+  margin-bottom: 5px;
+  font-weight: bold;
+  }
+
+.footer-weg .ft {
+  color: #fff;
+  font-size: 17px !important;
+  font-family: 'abbvoice', Arial,sans-serif;
+}
+
+.footer-weg .num {
+  color: #fff;
+  font-size: 60px;
+  font-family: 'abbvoice', Arial,sans-serif;
+  }
+
+.footer-weg .num span {
+  color: #fff;
+  font-size: 17px;
+  font-family: 'abbvoice', Arial,sans-serif;
+  }
+
+.footer-weg .conc {
+  color: #fff;
+  }
+
+.border-devider {
+  border-top: 1px solid #858585;
+  margin-top: 20px;
+}
+
+.footer-text a {
+  color: #fff;
+  margin: 4px 10px;
+}
+
+.footer-links .social-buttons a {
+  font-size: 30px !important;
+  }
+
+.list-inline-item:not(:last-child) {
+      margin-right: 15px;
+}
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+
+	header.masthead {
+	padding-top: 50px;
+	padding-bottom: 0px;
+	}
+
+}
+
+@media all and (device-width: 1024px) and (device-height: 1366px) and (orientation:portrait) {
+
+	header.masthead {
+	padding-top: 50px;
+	padding-bottom: 20px;
+	}
+
+}
+
+@media only screen and (max-width: 700px) {
+
+	header.masthead {
+	padding-top: 100px;
+	padding-bottom: 0px;
+	}
+
+	header.masthead .intro-text {
+	padding-top: 20px;
+	}
+
+	header.masthead .intro-text .intro-heading {
+	font-size: 29px;
+	line-height: 40px;
+	}
+
+	h2.section-heading, h2.section-heading-small {
+	margin-top: 30px;
+	}
+
+.about-section, .image-section, .gallery-section, .resource-section, .quick-btn, footer {
+	padding: 50px 0;
+	}
+
+	.sm-mt-5 {
+	margin-top:50px;
+	}
+
+	.mb-150 {
+	margin-bottom: 50px;
+	}
+
+	section {
+		padding: 60px 0px;
+	}
+
+  h2.section-heading-left::before {
+    top: -24px;
+  }
+
+  h2.section-heading::before {
+  top: -5px;
+  left: 40%;
+  }
+
+	h2.section-heading, h2.section-heading-small, h2.section-heading-left {
+		font-size: 30px;
+		line-height: 40px;
+	}
+
+  .page-w-p {
+  padding-right: 15px;
+  padding-left: 15px;
+  }
+
+}
+
+@media only screen and (max-width: 1620px) {
+  .image-container {
+    overflow: hidden;
+    width: 1050px;
+    height:340px;
+    }
+
+  .image-container .img {
+    background-size:1050px 100%;
+    }
+
+  .image-container .slider::-webkit-slider-thumb,
+  .image-container .slider::-moz-range-thumb {
+    height:340px;
+    }
+
+  .image-container .slider-button1,
+  .image-container .slider-button2,
+  .image-container .slider-button3,
+  .image-container .slider-button4,
+  .image-container .slider-button5,
+  .image-container .slider-button6,
+  .image-container .slider-button7,
+  .image-container .slider-button8,
+  .image-container .slider-button9,
+  .image-container .slider-button10,
+  .image-container .slider-button11,
+  .image-container .slider-button12 {
+    background-color: white;
+    left: calc(50% - 21px);
+    top: calc(50% - 25px);
+    }
+}
+
+
+@media only screen and (max-width: 1220px) {
+  .image-container {
+    overflow: hidden;
+    width: 885px;
+    height:275px;
+    }
+
+  .image-container .img {
+    background-size:885px 100%;
+    }
+
+  .image-container .slider::-webkit-slider-thumb,
+  .image-container .slider::-moz-range-thumb {
+    height:275px;
+    }
+
+  .image-container .slider-button1,
+  .image-container .slider-button2,
+  .image-container .slider-button3,
+  .image-container .slider-button4,
+  .image-container .slider-button5,
+  .image-container .slider-button6,
+  .image-container .slider-button7,
+  .image-container .slider-button8,
+  .image-container .slider-button9,
+  .image-container .slider-button10,
+  .image-container .slider-button11,
+  .image-container .slider-button12 {
+    background-color: white;
+    left: calc(50% - 21px);
+    top: calc(50% - 25px);
+    }
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .image-container {
+    overflow: hidden;
+    width: 620px;
+    height:201px;
+    }
+
+  .image-container .img {
+    background-size:620px 100%;
+    }
+
+  .image-container .slider::-webkit-slider-thumb,
+  .image-container .slider::-moz-range-thumb {
+    height:201px;
+    }
+
+  .image-container .slider-button1,
+  .image-container .slider-button2,
+  .image-container .slider-button3,
+  .image-container .slider-button4,
+  .image-container .slider-button5,
+  .image-container .slider-button6,
+  .image-container .slider-button7,
+  .image-container .slider-button8,
+  .image-container .slider-button9,
+  .image-container .slider-button10,
+  .image-container .slider-button11,
+  .image-container .slider-button12 {
+    background-color: white;
+    left: calc(50% - 19px);
+    top: calc(50% - 25px);
+    }
+}
+
+
+@media only screen and (max-width: 750px) {
+  .image-container {
+    overflow: hidden;
+    width: 440px;
+    height:143px;
+    }
+
+  .image-container .img {
+    background-size:440px 100%;
+    }
+
+  .image-container .slider::-webkit-slider-thumb,
+  .image-container .slider::-moz-range-thumb {
+    height:143px;
+    }
+
+  .image-container .slider-button1,
+  .image-container .slider-button2,
+  .image-container .slider-button3,
+  .image-container .slider-button4,
+  .image-container .slider-button5,
+  .image-container .slider-button6,
+  .image-container .slider-button7,
+  .image-container .slider-button8,
+  .image-container .slider-button9,
+  .image-container .slider-button10,
+  .image-container .slider-button11,
+  .image-container .slider-button12 {
+    background-color: white;
+    left: calc(50% - 16px);
+    top: calc(50% - 25px);
+    }
+}
+
+@media only screen and (max-width: 375px) {
+  .image-container {
+    overflow: hidden;
+    width: 345px;
+    height:112px;
+    }
+
+  .image-container .img {
+    background-size:345px 100%;
+    }
+
+  .image-container .slider::-webkit-slider-thumb {
+    height:112px;
+    }
+
+  .image-container .slider::-moz-range-thumb {
+    height:112px;
+    }
+
+  .image-container .slider-button1,
+  .image-container .slider-button2,
+  .image-container .slider-button3,
+  .image-container .slider-button4,
+  .image-container .slider-button5,
+  .image-container .slider-button6,
+  .image-container .slider-button7,
+  .image-container .slider-button8,
+  .image-container .slider-button9,
+  .image-container .slider-button10,
+  .image-container .slider-button11,
+  .image-container .slider-button12 {
+    background-color: white;
+    left: calc(50% - 21px);
+    top: calc(50% - 25px);
+    }
+}
+
+
+@media only screen and (max-width: 414px) {
+  .image-container {
+    overflow: hidden;
+    width: 345px;
+    height:112px;
+    }
+
+  .image-container .img {
+    background-size:345px 100%;
+    }
+
+  .image-container .slider::-webkit-slider-thumb {
+    height:112px;
+    }
+
+  .image-container .slider::-moz-range-thumb {
+    height:112px;
+    }
+
+  .image-container .slider-button1,
+  .image-container .slider-button2,
+  .image-container .slider-button3,
+  .image-container .slider-button4,
+  .image-container .slider-button5,
+  .image-container .slider-button6,
+  .image-container .slider-button7,
+  .image-container .slider-button8,
+  .image-container .slider-button9,
+  .image-container .slider-button10,
+  .image-container .slider-button11,
+  .image-container .slider-button12 {
+    background-color: white;
+    left: calc(50% - 21px);
+    top: calc(50% - 25px);
+    }
+}
+
+  /* END TEMPLATE STYLE */
+  </style>
+
+</head>
+
+<body id="page-top">
+
+  <section class="gray-background p-0">
+    <div class="container page-w-p">
+      <div class="row pt-3 pt-lg-5 pb-5">
+        <div class="col-lg-12 mb-lg-5">
+          <a class="navbar-brand js-scroll-trigger" href="#page-top">
+    				<img src="https://global.abb/content/dam/abb-etc/commons/abb-logo.svg" alt="Logo" width="110" pardot-region="RTS1" pardot-region-type="image"/>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="gray-background pt-0 pb-0" id="sectionTwo">
+    <div class="container page-w-p">
+      <div class="row">
+        <div class="col-lg-12 m-auto text-left">
+          <h2 class="section-heading-left mb-4" pardot-region="RTS12">Slimme gebouwen:</h2>
+          <h3 class="section-heading-left mb-4" >dit is hoe de realiteit van nu werkt</h3>
+          <div class="mt-3 mt-lg-5">
+            <img class="img-fluid" src="images/hero.png" alt="" pardot-region="RTS123" pardot-region-type="image">
+          </div>
+        </div>
+      </div>
+
+       <div class="row">
+         <div class="col-lg-8 mt-4 text-left">
+           <div class="body-text" pardot-region="RTS1234">
+             <h5>In de wereld van slimme gebouwen vervaagt de grens tussen wat ooit ‘de toekomst’ leek te zijn en wat vandaag werkelijkheid is. Technologische vooruitgang brengt de belofte van morgen al vandaag binnen handbereik. Zo is een slim gebouw met efficiënte, duurzame en comfortabele ruimtes geen toekomstdroom meer, maar een tastbare realiteit van nu. </br></br> </h5>
+             <p>Hoe kan ik de hoge energie- en operationele kosten in mijn hotel verlagen? Hoe zorg ik dat we met ons kantoorpand de milieu-impact verminderen en bijdragen aan duurzaamheid? Hoe zorg ik dat in mijn schoolgebouw de onderhoudsbehoeften beter voorspeld kunnen worden? ABB biedt concrete oplossingen voor de gebouwen van vandaag en morgen. Van hoogwaardige installatieproducten tot complete gebouwbeheersystemen.</p> </br>
+           </div>
+           <!-- QUOTE -->
+           <h3 class="section-heading-left mb-4" pardot-region="RTS12"><i>"Slim besparen terwijl iedereen op kantoor is"</i></h3>
+           <!-- END QUOTE -->
+         </div>
+
+        <div class="col-lg-4 mt-4 text-left">
+          <div class="form-box mt-3">
+            <h3 class="section-heading mb-2" pardot-region="RTS12345">Nu de slimme oplossingen voor úw kantoor, school of hotel ontvangen?</h3>
+            <div>
+              <div ><a class="btn btn-primary theme-btn mt-1 mb-4 js-scroll-trigger" href="#">Ja, download de Smart Building Keuzegids</a></div>
+            </div>
+          </div>
+        </div>
+       </div>
+
+       <!-- SLIDER AREA -->
+       <div class="row" style="margin-top:100px;">
+         <div class="col-lg-12 mt-4 text-left">
+           <div class="">
+             <h1 class="section-heading mb-2" pardot-region="RTS123456" style="text-align:left;">Ontdek de intelligente, bereikbare en haalbare oplossingen. Nu.</h1>
+             <h5 class="light font-27 mb-5" pardot-region="RTS1234567">ABB heeft een slim portfolio voor de slimme gebouwen van nu.
+            </h5>
+
+             <div>
+               <nav class="nav nav-pills mb-3 flex-column flex-sm-row cu-wi-t" id="pills-tab" role="">
+                <a class="flex-sm-fill text-sm-center nav-link active" id="pills-kantoren-tab" data-toggle="pill" data-target="#pills-kantoren" type="button" role="tab" aria-controls="pills-kantoren" aria-selected="true" pardot-region="RTS12345678">Kantoren</a>
+                <a class="flex-sm-fill text-sm-center nav-link" id="pills-hotl-tab" data-toggle="pill" data-target="#pills-hotel" type="button" role="tab" aria-controls="pills-hotel" aria-selected="false" pardot-region="RTS123456789">Hotels & resorts</a>
+                <a class="flex-sm-fill text-sm-center nav-link" id="pills-scholen-tab" data-toggle="pill" data-target="#pills-scholen" type="button" role="tab" aria-controls="pills-scholen" aria-selected="false" pardot-region="RTS1234567890">Scholen, hogescholen & universiteiten</a>
+              </nav>
+              <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-kantoren" role="tabpanel" aria-labelledby="pills-kantoren-tab">
+                  <div class="mt-5">
+                    <nav class="nav nav-pills mb-3 flex-column flex-sm-row secondary-pills" id="pills-tab" role="">
+                     <a class="flex-sm-fill text-sm-center nav-link active" id="pills-kantoren-tab1" data-toggle="pill" data-target="#pills-kantoren1" type="button" role="tab" aria-controls="pills-kantoren1" aria-selected="true" pardot-region="RTT1234567890">Comfortabele en veilige werkplek</a>
+
+                     <a class="flex-sm-fill text-sm-center nav-link " id="pills-kantoren-tab2" data-toggle="pill" data-target="#pills-kantoren2" type="button" role="tab" aria-controls="pills-kantoren2" aria-selected="true" pardot-region="RTT123456789">Ultieme hotelbeleving</a>
+
+                     <a class="flex-sm-fill text-sm-center nav-link" id="pills-kantoren-tab3" data-toggle="pill" data-target="#pills-kantoren3" type="button" role="tab" aria-controls="pills-kantoren3" aria-selected="true" pardot-region="RTT12345678">Energie-efficiënt laadplein</a>
+
+                     <a class="flex-sm-fill text-sm-center nav-link" id="pills-kantoren-tab4" data-toggle="pill" data-target="#pills-kantoren4" type="button" role="tab" aria-controls="pills-kantoren4" aria-selected="true" pardot-region="RTT1234567">Intelligente technische ruimte</a>
+                   </nav>
+                   <div class="tab-content" id="pills-tabContent">
+                     <div class="tab-pane fade show active" id="pills-kantoren1" role="tabpanel" aria-labelledby="pills-kantoren-tab1">
+                       <div>
+                         <div class="image-container">
+                            <div class="img background-img1"></div>
+                            <div class="img foreground-img1"></div>
+                            <input type="range" min="1" max="100" value="50" class="slider" name='slider' id="slider1">
+                            <div class="slider-button1"></div>
+                          </div>
+                       </div>
+                       <div class="mt-5 numbered-list" pardot-region="RTT123456">
+                         <ol>
+                           <li><span class="red-number">1</span> Deurbel met DND/MUR</li>
+                           <li><span class="red-number">2</span> Thermostaat geïntegreerd in de lichtschakelaar naast de deur</li>
+                           <li><span class="red-number">3</span> Bewegingmelder voor binnenkomst - en badkamer scenes</li>
+                           <li><span class="red-number">4</span> Bewegingmelder voor nachtverlichting</li>
+                           <li><span class="red-number">5</span> Nachtverlichting</li>
+                         </ol>
+                         <p>Wil je deze en de andere slimme oplossingen in je mailbox ontvangen? Download het totaaloverzicht hier.</p>
+                       </div>
+                     </div>
+                     <div class="tab-pane fade show" id="pills-kantoren2" role="tabpanel" aria-labelledby="pills-kantoren-tab2">
+                       <div>
+                         <div class="image-container">
+                            <div class="img background-img2"></div>
+                            <div class="img foreground-img2"></div>
+                            <input type="range" min="1" max="100" value="50" class="slider" name='slider' id="slider2">
+                            <div class="slider-button2"></div>
+                          </div>
+                       </div>
+                       <div class="mt-5 numbered-list" pardot-region="RTT12345">
+                         <ol>
+                           <li><span class="red-number">1</span> Deurbel met DND/MUR</li>
+                           <li><span class="red-number">2</span> Thermostaat geïntegreerd in de lichtschakelaar naast de deur</li>
+                           <li><span class="red-number">3</span> Bewegingmelder voor binnenkomst - en badkamer scenes</li>
+                           <li><span class="red-number">4</span> Bewegingmelder voor nachtverlichting</li>
+                           <li><span class="red-number">5</span> Nachtverlichting</li>
+                         </ol>
+                         <p>Wil je deze en de andere slimme oplossingen in je mailbox ontvangen? Download het totaaloverzicht hier.</p>
+                       </div>
+                     </div>
+                     <div class="tab-pane fade show" id="pills-kantoren3" role="tabpanel" aria-labelledby="pills-kantoren-tab3">
+                       <div>
+                         <div class="image-container">
+                            <div class="img background-img3"></div>
+                            <div class="img foreground-img3"></div>
+                            <input type="range" min="1" max="100" value="50" class="slider" name='slider' id="slider3">
+                            <div class="slider-button3"></div>
+                          </div>
+                       </div>
+                       <div class="mt-5 numbered-list" pardot-region="RTT1234">
+                         <ol>
+                           <li><span class="red-number">1</span> Deurbel met DND/MUR</li>
+                           <li><span class="red-number">2</span> Thermostaat geïntegreerd in de lichtschakelaar naast de deur</li>
+                           <li><span class="red-number">3</span> Bewegingmelder voor binnenkomst - en badkamer scenes</li>
+                           <li><span class="red-number">4</span> Bewegingmelder voor nachtverlichting</li>
+                           <li><span class="red-number">5</span> Nachtverlichting</li>
+                         </ol>
+                         <p>Wil je deze en de andere slimme oplossingen in je mailbox ontvangen? Download het totaaloverzicht hier.</p>
+                       </div>
+                     </div>
+                     <div class="tab-pane fade show" id="pills-kantoren4" role="tabpanel" aria-labelledby="pills-kantoren-tab4">
+                       <div>
+                         <div class="image-container">
+                            <div class="img background-img4"></div>
+                            <div class="img foreground-img4"></div>
+                            <input type="range" min="1" max="100" value="50" class="slider" name='slider' id="slider4">
+                            <div class="slider-button4"></div>
+                          </div>
+                       </div>
+                       <div class="mt-5 numbered-list" pardot-region="RTT123">
+                         <ol>
+                           <li><span class="red-number">1</span> Deurbel met DND/MUR</li>
+                           <li><span class="red-number">2</span> Thermostaat geïntegreerd in de lichtschakelaar naast de deur</li>
+                           <li><span class="red-number">3</span> Bewegingmelder voor binnenkomst - en badkamer scenes</li>
+                           <li><span class="red-number">4</span> Bewegingmelder voor nachtverlichting</li>
+                           <li><span class="red-number">5</span> Nachtverlichting</li>
+                         </ol>
+                         <p>Wil je deze en de andere slimme oplossingen in je mailbox ontvangen? Download het totaaloverzicht hier.</p>
+                       </div>
+                     </div>
+                   </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-hotel" role="tabpanel" aria-labelledby="pills-hotel-tab">
+                  <div class="mt-5">
+                    <nav class="nav nav-pills mb-3 flex-column flex-sm-row secondary-pills" id="pills-tab" role="">
+                     <a class="flex-sm-fill text-sm-center nav-link active" id="pills-hotel-tab1" data-toggle="pill" data-target="#pills-hotel1" type="button" role="tab" aria-controls="pills-hotel1" aria-selected="true" pardot-region="RTT12">Comfortabele en veilige werkplek</a>
+
+                     <a class="flex-sm-fill text-sm-center nav-link " id="pills-hotel-tab2" data-toggle="pill" data-target="#pills-hotel2" type="button" role="tab" aria-controls="pills-hotel2" aria-selected="true" pardot-region="RTT1">Ultieme hotelbeleving</a>
+
+                     <a class="flex-sm-fill text-sm-center nav-link" id="pills-hotel-tab3" data-toggle="pill" data-target="#pills-hotel3" type="button" role="tab" aria-controls="pills-hotel3" aria-selected="true" pardot-region="RTU1">Energie-efficiënt laadplein</a>
+
+                     <a class="flex-sm-fill text-sm-center nav-link" id="pills-hotel-tab4" data-toggle="pill" data-target="#pills-hotel4" type="button" role="tab" aria-controls="pills-hotel4" aria-selected="true" pardot-region="RTU12">Intelligente technische ruimte</a>
+                   </nav>
+                   <div class="tab-content" id="pills-tabContent">
+                     <div class="tab-pane fade show active" id="pills-hotel1" role="tabpanel" aria-labelledby="pills-hotel-tab1">
+                       <div>
+                         <div class="image-container">
+                            <div class="img background-img5"></div>
+                            <div class="img foreground-img5"></div>
+                            <input type="range" min="1" max="100" value="50" class="slider" name='slider' id="slider5">
+                            <div class="slider-button5"></div>
+                          </div>
+                       </div>
+                       <div class="mt-5 numbered-list" pardot-region="RTU123">
+                         <ol>
+                           <li><span class="red-number">1</span> Deurbel met DND/MUR</li>
+                           <li><span class="red-number">2</span> Thermostaat geïntegreerd in de lichtschakelaar naast de deur</li>
+                           <li><span class="red-number">3</span> Bewegingmelder voor binnenkomst - en badkamer scenes</li>
+                           <li><span class="red-number">4</span> Bewegingmelder voor nachtverlichting</li>
+                           <li><span class="red-number">5</span> Nachtverlichting</li>
+                         </ol>
+                         <p>Wil je deze en de andere slimme oplossingen in je mailbox ontvangen? Download het totaaloverzicht hier.</p>
+                       </div>
+                     </div>
+                     <div class="tab-pane fade show " id="pills-hotel2" role="tabpanel" aria-labelledby="pills-hotel-tab2">
+                       <div>
+                         <div class="image-container">
+                            <div class="img background-img6"></div>
+                            <div class="img foreground-img6"></div>
+                            <input type="range" min="1" max="100" value="50" class="slider" name='slider' id="slider6">
+                            <div class="slider-button6"></div>
+                          </div>
+                       </div>
+                       <div class="mt-5 numbered-list" pardot-region="RTU1234">
+                         <ol>
+                           <li><span class="red-number">1</span> Deurbel met DND/MUR</li>
+                           <li><span class="red-number">2</span> Thermostaat geïntegreerd in de lichtschakelaar naast de deur</li>
+                           <li><span class="red-number">3</span> Bewegingmelder voor binnenkomst - en badkamer scenes</li>
+                           <li><span class="red-number">4</span> Bewegingmelder voor nachtverlichting</li>
+                           <li><span class="red-number">5</span> Nachtverlichting</li>
+                         </ol>
+                         <p>Wil je deze en de andere slimme oplossingen in je mailbox ontvangen? Download het totaaloverzicht hier.</p>
+                       </div>
+                     </div>
+                     <div class="tab-pane fade show" id="pills-hotel3" role="tabpanel" aria-labelledby="pills-hotel-tab3">
+                       <div>
+                         <div class="image-container">
+                            <div class="img background-img7"></div>
+                            <div class="img foreground-img7"></div>
+                            <input type="range" min="1" max="100" value="50" class="slider" name='slider' id="slider7">
+                            <div class="slider-button7"></div>
+                          </div>
+                       </div>
+                       <div class="mt-5 numbered-list" pardot-region="RTU12345">
+                         <ol>
+                           <li><span class="red-number">1</span> Deurbel met DND/MUR</li>
+                           <li><span class="red-number">2</span> Thermostaat geïntegreerd in de lichtschakelaar naast de deur</li>
+                           <li><span class="red-number">3</span> Bewegingmelder voor binnenkomst - en badkamer scenes</li>
+                           <li><span class="red-number">4</span> Bewegingmelder voor nachtverlichting</li>
+                           <li><span class="red-number">5</span> Nachtverlichting</li>
+                         </ol>
+                         <p>Wil je deze en de andere slimme oplossingen in je mailbox ontvangen? Download het totaaloverzicht hier.</p>
+                       </div>
+                     </div>
+                     <div class="tab-pane fade show" id="pills-hotel4" role="tabpanel" aria-labelledby="pills-hotel-tab4">
+                       <div>
+                         <div class="image-container">
+                            <div class="img background-img8"></div>
+                            <div class="img foreground-img8"></div>
+                            <input type="range" min="1" max="100" value="50" class="slider" name='slider' id="slider8">
+                            <div class="slider-button8"></div>
+                          </div>
+                       </div>
+                       <div class="mt-5 numbered-list" pardot-region="RTU123456">
+                         <ol>
+                           <li><span class="red-number">1</span> Deurbel met DND/MUR</li>
+                           <li><span class="red-number">2</span> Thermostaat geïntegreerd in de lichtschakelaar naast de deur</li>
+                           <li><span class="red-number">3</span> Bewegingmelder voor binnenkomst - en badkamer scenes</li>
+                           <li><span class="red-number">4</span> Bewegingmelder voor nachtverlichting</li>
+                           <li><span class="red-number">5</span> Nachtverlichting</li>
+                         </ol>
+                         <p>Wil je deze en de andere slimme oplossingen in je mailbox ontvangen? Download het totaaloverzicht hier.</p>
+                       </div>
+                     </div>
+                   </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-scholen" role="tabpanel" aria-labelledby="pills-scholen-tab">
+                  <div class="mt-5">
+                    <nav class="nav nav-pills mb-3 flex-column flex-sm-row secondary-pills" id="pills-tab" role="">
+                     <a class="flex-sm-fill text-sm-center nav-link active" id="pills-scholen-tab1" data-toggle="pill" data-target="#pills-scholen1" type="button" role="tab" aria-controls="pills-scholen1" aria-selected="true" pardot-region="RTU1234567">Comfortabele en veilige werkplek</a>
+
+                     <a class="flex-sm-fill text-sm-center nav-link " id="pills-scholen-tab2" data-toggle="pill" data-target="#pills-scholen2" type="button" role="tab" aria-controls="pills-scholen2" aria-selected="true" pardot-region="RTU12345678">Ultieme hotelbeleving</a>
+
+                     <a class="flex-sm-fill text-sm-center nav-link" id="pills-scholen-tab3" data-toggle="pill" data-target="#pills-scholen3" type="button" role="tab" aria-controls="pills-scholen3" aria-selected="true" pardot-region="RTU123456789">Energie-efficiënt laadplein</a>
+
+                     <a class="flex-sm-fill text-sm-center nav-link" id="pills-scholen-tab4" data-toggle="pill" data-target="#pills-scholen4" type="button" role="tab" aria-controls="pills-scholen4" aria-selected="true" pardot-region="RTU1234567890">Intelligente technische ruimte</a>
+                   </nav>
+                   <div class="tab-content" id="pills-tabContent">
+                     <div class="tab-pane fade show active" id="pills-scholen1" role="tabpanel" aria-labelledby="pills-scholen-tab1">
+                       <div>
+                         <div class="image-container">
+                            <div class="img background-img9"></div>
+                            <div class="img foreground-img9"></div>
+                            <input type="range" min="1" max="100" value="50" class="slider" name='slider' id="slider9">
+                            <div class="slider-button9"></div>
+                          </div>
+                       </div>
+                       <div class="mt-5 numbered-list" pardot-region="RTV1234567890">
+                         <ol>
+                           <li><span class="red-number">1</span> Deurbel met DND/MUR</li>
+                           <li><span class="red-number">2</span> Thermostaat geïntegreerd in de lichtschakelaar naast de deur</li>
+                           <li><span class="red-number">3</span> Bewegingmelder voor binnenkomst - en badkamer scenes</li>
+                           <li><span class="red-number">4</span> Bewegingmelder voor nachtverlichting</li>
+                           <li><span class="red-number">5</span> Nachtverlichting</li>
+                         </ol>
+                         <p>Wil je deze en de andere slimme oplossingen in je mailbox ontvangen? Download het totaaloverzicht hier.</p>
+                       </div>
+                     </div>
+                     <div class="tab-pane fade show " id="pills-scholen2" role="tabpanel" aria-labelledby="pills-scholen-tab2">
+                       <div>
+                         <div class="image-container">
+                            <div class="img background-img10"></div>
+                            <div class="img foreground-img10"></div>
+                            <input type="range" min="1" max="100" value="50" class="slider" name='slider' id="slider10">
+                            <div class="slider-button10"></div>
+                          </div>
+                       </div>
+                       <div class="mt-5 numbered-list" pardot-region="RTV123456789">
+                         <ol>
+                           <li><span class="red-number">1</span> Deurbel met DND/MUR</li>
+                           <li><span class="red-number">2</span> Thermostaat geïntegreerd in de lichtschakelaar naast de deur</li>
+                           <li><span class="red-number">3</span> Bewegingmelder voor binnenkomst - en badkamer scenes</li>
+                           <li><span class="red-number">4</span> Bewegingmelder voor nachtverlichting</li>
+                           <li><span class="red-number">5</span> Nachtverlichting</li>
+                         </ol>
+                         <p>Wil je deze en de andere slimme oplossingen in je mailbox ontvangen? Download het totaaloverzicht hier.</p>
+                       </div>
+                     </div>
+                     <div class="tab-pane fade show" id="pills-scholen3" role="tabpanel" aria-labelledby="pills-scholen-tab3">
+                       <div>
+                         <div class="image-container">
+                            <div class="img background-img11"></div>
+                            <div class="img foreground-img11"></div>
+                            <input type="range" min="1" max="100" value="50" class="slider" name='slider' id="slider11">
+                            <div class="slider-button11"></div>
+                          </div>
+                       </div>
+                       <div class="mt-5 numbered-list" pardot-region="RTV12345678">
+                         <ol>
+                           <li><span class="red-number">1</span> Deurbel met DND/MUR</li>
+                           <li><span class="red-number">2</span> Thermostaat geïntegreerd in de lichtschakelaar naast de deur</li>
+                           <li><span class="red-number">3</span> Bewegingmelder voor binnenkomst - en badkamer scenes</li>
+                           <li><span class="red-number">4</span> Bewegingmelder voor nachtverlichting</li>
+                           <li><span class="red-number">5</span> Nachtverlichting</li>
+                         </ol>
+                         <p>Wil je deze en de andere slimme oplossingen in je mailbox ontvangen? Download het totaaloverzicht hier.</p>
+                       </div>
+                     </div>
+                     <div class="tab-pane fade show" id="pills-scholen4" role="tabpanel" aria-labelledby="pills-scholen-tab4">
+                       <div>
+                         <div class="image-container">
+                            <div class="img background-img12"></div>
+                            <div class="img foreground-img12"></div>
+                            <input type="range" min="1" max="100" value="50" class="slider" name='slider' id="slider12">
+                            <div class="slider-button12"></div>
+                          </div>
+                       </div>
+                       <div class="mt-5 numbered-list" pardot-region="RTV1234567">
+                         <ol>
+                           <li><span class="red-number">1</span> Deurbel met DND/MUR</li>
+                           <li><span class="red-number">2</span> Thermostaat geïntegreerd in de lichtschakelaar naast de deur</li>
+                           <li><span class="red-number">3</span> Bewegingmelder voor binnenkomst - en badkamer scenes</li>
+                           <li><span class="red-number">4</span> Bewegingmelder voor nachtverlichting</li>
+                           <li><span class="red-number">5</span> Nachtverlichting</li>
+                         </ol>
+                         <p>Wil je deze en de andere slimme oplossingen in je mailbox ontvangen? Download het totaaloverzicht hier.</p>
+                       </div>
+                     </div>
+                   </div>
+                  </div>
+
+                </div>
+              </div>
+             </div>
+
+           </div>
+         </div>
+       </div>
+<!-- END SLIDER AREA -->
+
+<!-- FORM ARE -->
+<div class="row">
+ <div class="col-lg-8 mt-4 text-left" style="margin:auto;">
+   <div class="form-box mt-3">
+     <h3 class="section-heading mb-2" pardot-region="RTS12345">Alles weten over het slimme gebouw van morgen? <br/>
+      Download dan nú de Smart Building Keuzegids!</h3>
+      <div class="mb-0" pardot-region="RTV123"><p>Hoe draagt een slimme sensor bij aan het comfort in uw kantoor? Waarom is een thermostaat geïntegreerd in de lichtschakelaar naast de deur in een collegezaal een energie-efficiënte oplossing? En wat zijn de voordelen van slimme deurcommunicatie voor elk gebouw? Ontdek het in de Keuzegids. Hier vindt u slimme oplossingen voor elk gebouw.
+      </p>  </div>
+
+     <div>
+       <div ><a class="btn btn-primary theme-btn mt-1 mb-4 js-scroll-trigger" href="#">Ja, download de Smart Building Keuzegids</a></div>
+     </div>
+   </div>
+ </div>
+</div>
+<!-- END FORM AREA -->
+
+        <div class="row" style="margin-top: 100px;">
+          <div class="col-lg-12 m-auto text-left">
+              <!-- QUOTE -->
+           <h3 class="section-heading-left mb-4" pardot-region="RTS12"><i>"Slim besparen terwijl iedereen op kantoor is"</i></h3>
+           <!-- END QUOTE -->
+            <div class="mt-3 mt-lg-5">
+            </div>
+          </div>
+        </div>
+        <!-- Uitleg -->
+       <div class="row mt-45">
+        <div class="col-lg-10 m-auto text-center">
+         <h4 class="section-heading text-center line-c mb-lg-5" pardot-region="RTV123456">Wat betekent een slim gebouw voor mij?</h4>
+        </div>
+       </div>
+       <div class="row for-row-m justify-content-center">
+         <div class="col-lg-4 col-md-6">
+           <div class="service-icon-box text-center">
+             <img src="images/icon_1.jpg" alt=" " width="100" pardot-region="RTV12345" pardot-region-type="image">
+             <div class="feature-txt">
+               <h4 class="service-heading" pardot-region="RTV1234">Adviseur / ontwikkelaar</h4>
+               <div class="mb-0" pardot-region="RTV123"><p>"Een slim gebouw voldoet aan de huidige duurzaamheidseisen en is daardoor meer waard. Ook is het gemakkelijker up-to-date te houden dankzij moderne technologieën. Dat maakt het vastgoed dat ik adviseer/ontwikkel, toekomstbestendig en daarmee aantrekkelijk.” </p>  </div>
+             </div>
+           </div>
+         </div>
+
+         <div class="col-lg-4 col-md-6">
+           <div class="service-icon-box text-center">
+             <img src="images/icon_2.jpg" alt=" " width="100" pardot-region="RTV12" pardot-region-type="image">
+             <div class="feature-txt">
+               <h4 class="service-heading" pardot-region="RTV1">System integrator / E- en W-installateur</h4>
+               <div class="mb-0" pardot-region="RTV"><p>“Slimme gebouwen kunnen onderhoudsbehoeften beter voorspellen. Dat vermindert ongeplande downtime en maakt mijn werk beheersbaarder.”</p> </div>
+             </div>
+           </div>
+         </div>
+
+         <div class="col-lg-4 col-md-6">
+           <div class="service-icon-box text-center">
+             <img src="images/icon_3.jpg" alt=" " width="100" pardot-region="RTW" pardot-region-type="image">
+             <div class="feature-txt">
+               <h4 class="service-heading" pardot-region="RTW1">Facilitymanager/vastgoedeigenaar</h4>
+               <div class="mb-0" pardot-region="RTW12"><p>"De pandgebruikers zijn verzekerd van een gezonde, comfortabele en veilige omgeving, terwijl ik zelf inzicht krijg in hoe mijn gebouw presteert en hoe het wordt gebruikt en zo energie en kosten kan besparen.”</p> </div>
+             </div>
+           </div>
+         </div>
+       </div>
+       <!-- END Uitleg-->
+
+
+    <!-- SmartScore -->
+    <div class="row mt-45">
+      <div class="col-lg-12 text-left">
+        <div class="mr-lg-3">
+          <h4 class="section-heading mb-0" pardot-region="RTW123">Maak kans op een SmartScore-scan t.w.v. 990,-!</h4>
+          <h5 class="light font-27 mb-4" pardot-region="RTW1234">En ontdek hoe slim uw gebouw nu (al) is.</h5>
+          <p pardot-region="RTW12345">SmartScore is de wereldwijde standaard voor slimme gebouwen. Met hét scorecard-systeem bepalen wij op een gestructureerde manier de doelstellingen voor uw gebouw. De SmartScore scan biedt duidelijkheid over:
+            <ul>
+            <li>Wat een slim gebouw concreet voor uw situatie betekent</li>
+            <li>De richtlijnen voor het bereiken van uw doelstellingen</li>
+            <li>Bewijs van de waarde die het toevoegt aan uw asset</li>
+          </ul>
+            Kortom; het helpt u bij het ontwerpen en implementeren van de best-in-class slimme gebouw oplossingen.
+            
+            Weten hoe uw gebouw scoort?
+            </p>
+          <div  pardot-region="RTW123456"><a class="btn btn-primary theme-btn mt-1 mb-4 js-scroll-trigger" href="#">Ja, ik wil weten hoe slim mijn gebouw al is</a></div>
+        </div>
+      
+  <!-- END SmartScore -->
+  
+  <!-- Webinar -->
+       <div class="row mt-45">
+        <div class="col-lg-12 text-left">
+          <div class="mr-lg-3">
+            <h4 class="section-heading mb-0" pardot-region="RTW123">Webinar ‘Slimme gebouwen, met de realiteit van nu’ – 23 november</h4>
+            <h5 class="light font-27 mb-4" pardot-region="RTW1234">En ontdek hoe slim uw gebouw nu (al) is.</h5>
+            <p pardot-region="RTW12345">Gebouwen worden steeds slimmer. Logisch, want een slim gebouw zorgt voor meer comfort, meer energie-efficiëntie en meer veiligheid. In dit webinar ontdekt u o.a. wat er nú al mogelijk is op het gebied van slimme gebouwen en welke oplossingen uw gebouw toekomstbestendig maken. Ook gaan we in op de 4 aandachtsgebieden van een slim gebouw: de receptie/entree, gebruiksplekken, laadpleinen en de technische ruimte.
+<br/><br/>
+Na dit 45 minuten durende webinar weet u:
+
+<br/>
+              <ul>
+              <li>Welke oplossingen er zijn om een gebouw te transformeren tot een slim gebouw, en... wat ze opleveren!</li>
+              <li>Welke specifieke oplossingen er zijn voor de receptie/entree, gebruiksplekken (werkplekken/ hotelkamers/leslokalen), laadplekken voor elektrische voertuigen en de technische ruimten.</li>
+              <li>at SmartScore-certificering inhoudt en wat de meerwaarde is van een SmartScan i.s.m. YSmart.</li>
+            </ul>
+              Kortom; het helpt u bij het ontwerpen en implementeren van de best-in-class slimme gebouw oplossingen.
+              
+              Weten hoe uw gebouw scoort?
+              </p>
+            <div  pardot-region="RTW123456"><a class="btn btn-primary theme-btn mt-1 mb-4 js-scroll-trigger" href="#">Nu gratis aanmelden</a></div>
+          </div>
+        </div>
+    <!-- END Webinar -->
+
+     <!-- QUOTE -->
+     <h3 class="section-heading-left mb-4" pardot-region="RTS12" style="margin-top:50px;"><i>"Slim energiemanagement terwijl uw bezoekers de accu van de elektrische auto opladen"</i></h3>
+     <!-- END QUOTE -->
+
+     <!-- Direct aan de slag -->
+     <div class="row mt-45">
+      <div class="col-lg-12 text-left">
+        <div class="mr-lg-3">
+          <h4 class="section-heading mb-0" pardot-region="RTW123">Direct aan de slag met comfort, veiligheid, energie-efficiency en duurzaamheid? </h4>
+          <p pardot-region="RTW12345">Ontdek onze intelligente, bereikbare en haalbare oplossingen. Nu.
+            Boek een gratis lunch & learn sessie met experts van ABB. We komen dan bij u langs voor een vrijblijvende intake.
+            </p>
+            <!--
+          <div  pardot-region="RTW123456"><a class="btn btn-primary theme-btn mt-1 mb-4 js-scroll-trigger" href="#">Nu gratis aanmelden</a></div>
+            -->
+        </div>
+      </div>
+  <!-- END Direct aan de slag -->
+
+</div>
+    </div>
+  </section>
+
+  <section class="gray-background pt-0 pb-0" id="sectionTwo">
+    <div class="container footer-bg">
+    <footer class="">
+     <div class="container" style="background-color:#666769">
+       <div class="row">
+         <div class="col-md-3">
+           <div class="footer-links" pardot-region="RTX12345678990">
+             <h4>POPULAIRE KOPPELINGEN</h4>
+
+             <a href="#" target="_blank">ABB Connect</a>
+             <a href="#" target="_blank">Data centers</a>
+             <a href="#" target="_blank">Investor center</a>
+             <a href="#" target="_blank">Supplying to ABB</a>
+           </div>
+         </div>
+
+         <div class="col-md-3">
+           <div class="footer-links">
+           <h4 pardot-region="RTX1234567899">VOLG ONS</h4>
+           <ul class="list-inline social-buttons">
+             <!-- Facebook -->
+             <li class="list-inline-item">
+               <a href="https://www.facebook.com" target="_blank" pardot-region="Facebook_Link" pardot-region-type="link">
+                 <i class="fa fa-facebook-square"></i>
+               </a>
+             </li>
+             <!-- END Facebook -->
+
+             <!-- Linkedin -->
+             <li class="list-inline-item">
+               <a href="https://www.linkedin.com" target="_blank" pardot-region="Linkedin_Link" pardot-region-type="link">
+                 <i class="fa fa-linkedin-square"></i>
+               </a>
+             </li>
+             <!-- END Linkedin -->
+
+             <!-- Youtube -->
+             <li class="list-inline-item">
+               <a href="https://www.youtube.com" target="_blank" pardot-region="Youtube_Link" pardot-region-type="link">
+                 <i class="fa fa-youtube"></i>
+               </a>
+             </li>
+             <!-- END Youtube -->
+
+             <!-- Twitter -->
+             <li class="list-inline-item">
+               <a href="https://twitter.com" target="_blank" pardot-region="Twitter_Link" pardot-region-type="link">
+                 <i class="fa fa-twitter-square"></i>
+               </a>
+             </li>
+             <!-- END Twitter -->
+
+             <!-- Instagram -->
+             <li class="list-inline-item">
+               <a href="https://www.instagram.com" target="_blank" pardot-region="Instagram_Link" pardot-region-type="link">
+                 <i class="fa fa-instagram"></i>
+               </a>
+             </li>
+             <!-- END Instagram -->
+
+           </ul>
+         </div>
+         </div>
+
+         <div class="col-md-3">
+           <div class="footer-links" pardot-region="RTX123A">
+             <h4>EVENTS</h4>
+             <a href="#" target="_blank">Customer events</a>
+             <a href="#" target="_blank">Investor events</a>
+             <a href="#" target="_blank">Media events</a>
+           </div>
+         </div>
+
+         <div class="col-md-3">
+           <div class="footer-links" pardot-region="RTX123456782">
+           </div>
+         </div>
+
+       </div>
+       <div class="w-100 border-devider"></div>
+       <div class="row pt-4">
+         <div class="col-lg-12">
+           <div class="footer-text text-center" pardot-region="RTX123456783">
+             <p><span style="color:#ffffff;">© 2023 ABB <a href="#" target="_blank">Provider informatie/Impressum</a> <a href="#" target="_blank">Privacy Notice</a>  <a href="#" target="_blank">Change cookie settings</a></p>
+           </div>
+         </div>
+       </div>
+     </div>
+   </footer>
+
+    </div>
+  </section>
+
+
+
+  <!-- Bootstrap and JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+  <!-- Custom scripts -->
+  <script src="js/custom.js"></script>
+
+
+  <script type="text/javascript">
+	var labels = document.querySelectorAll("div.pd-text label, div.pd-select label, div.pd-textarea label");
+	var i = labels.length;
+	while (i--) {
+		var label = labels.item(i);
+		var text = label.textContent;
+		label.parentNode.classList.contains("required") && (text += " *");
+		var nextElement = label.nextElementSibling;
+		if (nextElement) {
+			if (nextElement.tagName == 'SELECT') {
+				nextElement.options[0].text = text;
+			} else {
+				nextElement.setAttribute("placeholder", text);
+			}
+			label.parentNode.removeChild(label);
+		}
+	}
+	var elements = document.querySelectorAll('.errors, .no-label');
+	Array.prototype.forEach.call(elements, function(el, i) {
+		//el.parentNode.removeChild(el);
+	});
+
+	</script>
+
+
+  <script type="text/javascript">
+
+  $("#slider1").on("input change", (e)=>{
+   const sliderPos = e.target.value;
+   // Update the width of the foreground image
+   $('.foreground-img1').css('width', `${sliderPos}%`)
+   // Update the position of the slider button
+   $('.slider-button1').css('left', `calc(${sliderPos}% - 28px)`)
+  });
+
+  $("#slider2").on("input change", (e)=>{
+   const sliderPos = e.target.value;
+   // Update the width of the foreground image
+   $('.foreground-img2').css('width', `${sliderPos}%`)
+   // Update the position of the slider button
+   $('.slider-button2').css('left', `calc(${sliderPos}% - 28px)`)
+  });
+
+  $("#slider3").on("input change", (e)=>{
+   const sliderPos = e.target.value;
+   // Update the width of the foreground image
+   $('.foreground-img3').css('width', `${sliderPos}%`)
+   // Update the position of the slider button
+   $('.slider-button3').css('left', `calc(${sliderPos}% - 28px)`)
+  });
+
+  $("#slider4").on("input change", (e)=>{
+   const sliderPos = e.target.value;
+   // Update the width of the foreground image
+   $('.foreground-img4').css('width', `${sliderPos}%`)
+   // Update the position of the slider button
+   $('.slider-button4').css('left', `calc(${sliderPos}% - 28px)`)
+  });
+
+  $("#slider5").on("input change", (e)=>{
+   const sliderPos = e.target.value;
+   // Update the width of the foreground image
+   $('.foreground-img5').css('width', `${sliderPos}%`)
+   // Update the position of the slider button
+   $('.slider-button5').css('left', `calc(${sliderPos}% - 28px)`)
+  });
+
+  $("#slider6").on("input change", (e)=>{
+   const sliderPos = e.target.value;
+   // Update the width of the foreground image
+   $('.foreground-img6').css('width', `${sliderPos}%`)
+   // Update the position of the slider button
+   $('.slider-button6').css('left', `calc(${sliderPos}% - 28px)`)
+  });
+
+  $("#slider7").on("input change", (e)=>{
+   const sliderPos = e.target.value;
+   // Update the width of the foreground image
+   $('.foreground-img7').css('width', `${sliderPos}%`)
+   // Update the position of the slider button
+   $('.slider-button7').css('left', `calc(${sliderPos}% - 28px)`)
+  });
+
+  $("#slider8").on("input change", (e)=>{
+   const sliderPos = e.target.value;
+   // Update the width of the foreground image
+   $('.foreground-img8').css('width', `${sliderPos}%`)
+   // Update the position of the slider button
+   $('.slider-button8').css('left', `calc(${sliderPos}% - 28px)`)
+  });
+
+  $("#slider9").on("input change", (e)=>{
+   const sliderPos = e.target.value;
+   // Update the width of the foreground image
+   $('.foreground-img9').css('width', `${sliderPos}%`)
+   // Update the position of the slider button
+   $('.slider-button9').css('left', `calc(${sliderPos}% - 28px)`)
+  });
+
+  $("#slider10").on("input change", (e)=>{
+   const sliderPos = e.target.value;
+   // Update the width of the foreground image
+   $('.foreground-img10').css('width', `${sliderPos}%`)
+   // Update the position of the slider button
+   $('.slider-button10').css('left', `calc(${sliderPos}% - 28px)`)
+  });
+
+  $("#slider11").on("input change", (e)=>{
+   const sliderPos = e.target.value;
+   // Update the width of the foreground image
+   $('.foreground-img11').css('width', `${sliderPos}%`)
+   // Update the position of the slider button
+   $('.slider-button11').css('left', `calc(${sliderPos}% - 28px)`)
+  });
+
+  $("#slider12").on("input change", (e)=>{
+   const sliderPos = e.target.value;
+   // Update the width of the foreground image
+   $('.foreground-img12').css('width', `${sliderPos}%`)
+   // Update the position of the slider button
+   $('.slider-button12').css('left', `calc(${sliderPos}% - 28px)`)
+  });
+
+
+
+  </script>
+
+  <script>
+    (function($) {
+      "use strict"; // Start of use strict
+    
+      // Smooth scrolling using jQuery easing
+      $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+          if (target.length) {
+            $('html, body').animate({
+              scrollTop: (target.offset().top - 54)
+            }, 1000, "easeInOutExpo");
+            return false;
+          }
+        }
+      });
+    
+      // Collapse Navbar
+      var navbarCollapse = function() {
+        if ($("#mainNav").offset().top > 100) {
+          $("#mainNav").addClass("navbar-shrink");
+        } else {
+          $("#mainNav").removeClass("navbar-shrink");
+        }
+      };
+      // Collapse now if page is not at top
+      navbarCollapse();
+      // Collapse the navbar when page is scrolled
+      $(window).scroll(navbarCollapse);
+    
+     
+    
+    })(jQuery); // End of use strict
+  </script>
+
+</body>
+
+</html>
